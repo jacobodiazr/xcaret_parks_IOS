@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellPMXC" rowHeight="151" id="KGk-i7-Jjw" customClass="itemButtonPMTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="453" height="151"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="453" height="151"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RRm-We-Pkv">
+                        <rect key="frame" x="0.0" y="45" width="453" height="92"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ProgramaDeMano/boton/buttonPM" translatesAutoresizingMaskIntoConstraints="NO" id="hg2-nP-JeH">
+                                <rect key="frame" x="0.0" y="-43" width="130" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="4t9-dy-zxc"/>
+                                    <constraint firstAttribute="height" constant="129" id="JDe-I1-Q9O"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSy-yI-Uem">
+                                <rect key="frame" x="130" y="12" width="308" height="68"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programa de mano" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyQ-0q-DZC">
+                                        <rect key="frame" x="8" y="10" width="292" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.26274509800000001" green="0.1647058824" blue="0.074509803920000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="zyQ-0q-DZC" secondAttribute="trailing" constant="8" id="Jjh-u3-vv3"/>
+                                    <constraint firstItem="zyQ-0q-DZC" firstAttribute="leading" secondItem="hSy-yI-Uem" secondAttribute="leading" constant="8" id="Yis-9V-p3D"/>
+                                    <constraint firstItem="zyQ-0q-DZC" firstAttribute="top" secondItem="hSy-yI-Uem" secondAttribute="top" constant="10" id="bPQ-vA-8zE"/>
+                                    <constraint firstAttribute="height" constant="68" id="stc-gf-AdB"/>
+                                    <constraint firstAttribute="bottom" secondItem="zyQ-0q-DZC" secondAttribute="bottom" constant="10" id="t1b-6s-9gL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.2627450980392157" green="0.16470588235294117" blue="0.074509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80392156862745101" green="0.69411764705882351" blue="0.51764705882352935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="92" id="5b5-Fb-E9F"/>
+                            <constraint firstAttribute="bottom" secondItem="hg2-nP-JeH" secondAttribute="bottom" constant="6" id="6st-zK-e0a"/>
+                            <constraint firstAttribute="bottom" secondItem="hSy-yI-Uem" secondAttribute="bottom" constant="12" id="7Hb-9T-2Rf"/>
+                            <constraint firstItem="hSy-yI-Uem" firstAttribute="top" secondItem="RRm-We-Pkv" secondAttribute="top" constant="12" id="A4l-oI-y5q"/>
+                            <constraint firstItem="hg2-nP-JeH" firstAttribute="leading" secondItem="RRm-We-Pkv" secondAttribute="leading" id="C5s-Tq-kLf"/>
+                            <constraint firstItem="hg2-nP-JeH" firstAttribute="top" secondItem="RRm-We-Pkv" secondAttribute="top" constant="-43" id="LJT-me-Oq8"/>
+                            <constraint firstItem="hSy-yI-Uem" firstAttribute="leading" secondItem="hg2-nP-JeH" secondAttribute="trailing" id="jMJ-Rn-pM7"/>
+                            <constraint firstAttribute="trailing" secondItem="hSy-yI-Uem" secondAttribute="trailing" constant="15" id="u5J-Yl-tdl"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="RRm-We-Pkv" secondAttribute="trailing" id="AW0-j3-1Cg"/>
+                    <constraint firstAttribute="bottom" secondItem="RRm-We-Pkv" secondAttribute="bottom" constant="14" id="eJR-da-G0e"/>
+                    <constraint firstItem="RRm-We-Pkv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="45" id="rxg-ZG-MbO"/>
+                    <constraint firstItem="RRm-We-Pkv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xtV-PH-FSP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitulo" destination="zyQ-0q-DZC" id="Z4w-4o-vQ7"/>
+                <outlet property="viewContentColor" destination="RRm-We-Pkv" id="ZBa-FL-cvw"/>
+            </connections>
+            <point key="canvasLocation" x="192.0289855072464" y="77.34375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ProgramaDeMano/boton/buttonPM" width="333" height="363"/>
+    </resources>
+</document>

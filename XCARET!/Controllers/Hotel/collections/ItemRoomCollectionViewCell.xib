@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellRoom" id="gTV-IL-0wX" customClass="ItemRoomCollectionViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="187" height="243"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="187" height="243"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parks/XC/Activities/ThumbsNew/aviario" translatesAutoresizingMaskIntoConstraints="NO" id="CIN-rZ-b5T">
+                        <rect key="frame" x="0.0" y="0.0" width="187" height="243"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ah-mC-6k3" customClass="GradientView" customModule="XCARET_" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="143" width="187" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="0e3-kf-4gs"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                <color key="value" white="0.0" alpha="0.59792380136986301" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icons/ico_cloud" translatesAutoresizingMaskIntoConstraints="NO" id="qbj-lJ-pcC">
+                        <rect key="frame" x="10" y="183" width="50" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Ayi-Qf-jc0"/>
+                            <constraint firstAttribute="height" constant="60" id="ekk-mH-oAk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6z7-ZT-kvF">
+                        <rect key="frame" x="75" y="209" width="102" height="24"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6z7-ZT-kvF" secondAttribute="bottom" constant="10" id="0wn-wA-zi0"/>
+                <constraint firstItem="5Ah-mC-6k3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2kE-GX-UKk"/>
+                <constraint firstAttribute="trailing" secondItem="5Ah-mC-6k3" secondAttribute="trailing" id="7tl-2M-rqv"/>
+                <constraint firstAttribute="bottom" secondItem="5Ah-mC-6k3" secondAttribute="bottom" id="A4X-Kl-4WI"/>
+                <constraint firstItem="CIN-rZ-b5T" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="G9g-vU-Evk"/>
+                <constraint firstAttribute="trailing" secondItem="6z7-ZT-kvF" secondAttribute="trailing" constant="10" id="KvV-4g-f4K"/>
+                <constraint firstItem="qbj-lJ-pcC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="OKc-cS-Ran"/>
+                <constraint firstItem="CIN-rZ-b5T" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YZu-gJ-xQ2"/>
+                <constraint firstAttribute="bottom" secondItem="qbj-lJ-pcC" secondAttribute="bottom" id="ZRu-Wu-9Ae"/>
+                <constraint firstAttribute="trailing" secondItem="CIN-rZ-b5T" secondAttribute="trailing" id="gVR-UZ-FeO"/>
+                <constraint firstItem="6z7-ZT-kvF" firstAttribute="leading" secondItem="qbj-lJ-pcC" secondAttribute="trailing" constant="15" id="qMP-qL-0gk"/>
+                <constraint firstAttribute="bottom" secondItem="CIN-rZ-b5T" secondAttribute="bottom" id="xF7-fT-u1c"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="187" height="243"/>
+            <connections>
+                <outlet property="imageIcon" destination="qbj-lJ-pcC" id="HVb-IS-3Xb"/>
+                <outlet property="imageRoom" destination="CIN-rZ-b5T" id="Zav-3M-WcN"/>
+                <outlet property="lblTitle" destination="6z7-ZT-kvF" id="5dR-Jk-kb1"/>
+            </connections>
+            <point key="canvasLocation" x="147.10144927536234" y="100.11160714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Icons/ico_cloud" width="25" height="25"/>
+        <image name="Parks/XC/Activities/ThumbsNew/aviario" width="300" height="375"/>
+    </resources>
+</document>

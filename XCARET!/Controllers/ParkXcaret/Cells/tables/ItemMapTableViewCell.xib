@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellTVMap" rowHeight="163" id="KGk-i7-Jjw" customClass="ItemMapTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="157.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wn5-u2-eyX">
+                        <rect key="frame" x="16" y="16" width="337" height="131"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parks/XC/map_thumb" translatesAutoresizingMaskIntoConstraints="NO" id="vWe-E1-k54">
+                                <rect key="frame" x="0.0" y="0.0" width="337" height="131"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWH-hv-vdH" customClass="GradientView" customModule="XCARET_" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="66" width="337" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="11n-cp-qxF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                        <color key="value" white="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pLa-EH-lbN">
+                                <rect key="frame" x="118.5" y="81" width="100" height="35"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAPA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBD-Y9-nR3">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="qBD-Y9-nR3" secondAttribute="bottom" id="14t-GW-stZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="qBD-Y9-nR3" secondAttribute="trailing" id="38c-9h-L1Y"/>
+                                    <constraint firstAttribute="width" constant="100" id="ARo-Op-PIG"/>
+                                    <constraint firstItem="qBD-Y9-nR3" firstAttribute="top" secondItem="pLa-EH-lbN" secondAttribute="top" id="CYv-us-bQQ"/>
+                                    <constraint firstAttribute="height" constant="35" id="aeR-DQ-5OM"/>
+                                    <constraint firstItem="qBD-Y9-nR3" firstAttribute="leading" secondItem="pLa-EH-lbN" secondAttribute="leading" id="eWl-VB-LVD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pLa-EH-lbN" firstAttribute="centerX" secondItem="Wn5-u2-eyX" secondAttribute="centerX" id="DOb-Eg-88B"/>
+                            <constraint firstItem="vWe-E1-k54" firstAttribute="top" secondItem="Wn5-u2-eyX" secondAttribute="top" id="Fs6-Pf-zQX"/>
+                            <constraint firstItem="vWe-E1-k54" firstAttribute="leading" secondItem="Wn5-u2-eyX" secondAttribute="leading" id="G2F-Qp-VDX"/>
+                            <constraint firstAttribute="bottom" secondItem="pLa-EH-lbN" secondAttribute="bottom" constant="15" id="GKE-yl-6Bs"/>
+                            <constraint firstAttribute="trailing" secondItem="vWe-E1-k54" secondAttribute="trailing" id="R4x-Ed-Utk"/>
+                            <constraint firstAttribute="trailing" secondItem="vWH-hv-vdH" secondAttribute="trailing" id="RdA-eb-liP"/>
+                            <constraint firstItem="vWH-hv-vdH" firstAttribute="leading" secondItem="Wn5-u2-eyX" secondAttribute="leading" id="TSZ-SA-YSh"/>
+                            <constraint firstAttribute="height" constant="131" id="aZt-bO-5ZP"/>
+                            <constraint firstAttribute="bottom" secondItem="vWe-E1-k54" secondAttribute="bottom" id="g0q-bJ-mW7"/>
+                            <constraint firstAttribute="bottom" secondItem="vWH-hv-vdH" secondAttribute="bottom" id="wDv-KQ-2Bi"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Wn5-u2-eyX" secondAttribute="bottom" id="ZpO-5b-I2e"/>
+                    <constraint firstItem="Wn5-u2-eyX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="fEP-Kq-esA"/>
+                    <constraint firstItem="Wn5-u2-eyX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="kHq-FF-3AU"/>
+                    <constraint firstItem="Wn5-u2-eyX" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="upg-A3-ziD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgView" destination="vWe-E1-k54" id="2zf-JW-Ta9"/>
+                <outlet property="lblSeeMap" destination="qBD-Y9-nR3" id="hgO-1B-DjB"/>
+                <outlet property="viewContentImage" destination="Wn5-u2-eyX" id="9qd-LS-w8s"/>
+                <outlet property="viewGradient" destination="vWH-hv-vdH" id="G2d-m9-N3H"/>
+            </connections>
+            <point key="canvasLocation" x="175.19999999999999" y="204.19790104947529"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Parks/XC/map_thumb" width="1440" height="524"/>
+    </resources>
+</document>

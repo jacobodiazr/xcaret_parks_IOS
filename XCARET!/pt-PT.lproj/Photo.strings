@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Hemos detectado que tienes problemas con tu código de descarga, por favor comunicate al centro de atención al cliente"; ObjectID = "6aR-0r-9TE"; */
+"6aR-0r-9TE.text" = "Hemos detectado que tienes problemas con tu código de descarga, por favor comunicate al centro de atención al cliente";
+
+/* Class = "UITextField"; placeholder = "Código de fotopass"; ObjectID = "BTc-BR-zTL"; */
+"BTc-BR-zTL.placeholder" = "Código de fotopass";
+
+/* Class = "UIButton"; normalTitle = "International"; ObjectID = "BjM-ru-vgC"; */
+"BjM-ru-vgC.normalTitle" = "International";
+
+/* Class = "UILabel"; text = "Escanea el código de barras o ingresa tu código que se encuentra en tu ticket de compra"; ObjectID = "QhT-2w-Wl7"; */
+"QhT-2w-Wl7.text" = "Escanea el código de barras o ingresa tu código que se encuentra en tu ticket de compra";
+
+/* Class = "UIButton"; normalTitle = "Cancelar"; ObjectID = "VWf-MD-ANB"; */
+"VWf-MD-ANB.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Regresar"; ObjectID = "cHN-jb-rUV"; */
+"cHN-jb-rUV.normalTitle" = "Regresar";
+
+/* Class = "UIButton"; normalTitle = "Compartir"; ObjectID = "eyb-wc-N4U"; */
+"eyb-wc-N4U.normalTitle" = "Compartir";
+
+/* Class = "UIButton"; normalTitle = "Mexico"; ObjectID = "jqL-gq-QAb"; */
+"jqL-gq-QAb.normalTitle" = "Mexico";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mJE-cH-kAd"; */
+"mJE-cH-kAd.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Mis Fotos"; ObjectID = "vet-UO-z5s"; */
+"vet-UO-z5s.title" = "Mis Fotos";

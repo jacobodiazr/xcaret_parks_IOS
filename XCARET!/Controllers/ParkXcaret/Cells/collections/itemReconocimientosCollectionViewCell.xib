@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellItemAward" id="gTV-IL-0wX" customClass="itemReconocimientosCollectionViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="154" height="145"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="154" height="145"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Parks/XC/Awards/global_compact" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p8G-wm-Qf6">
+                        <rect key="frame" x="15" y="5" width="124" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="Yme-os-Deu"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empresa Socialmente Responsable" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wV-JX-mxL">
+                        <rect key="frame" x="0.0" y="105" width="154" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.30588235294117649" green="0.45882352941176469" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0wV-JX-mxL" secondAttribute="trailing" id="P0f-N1-gmy"/>
+                <constraint firstAttribute="bottom" secondItem="0wV-JX-mxL" secondAttribute="bottom" constant="10" id="S5M-4S-u90"/>
+                <constraint firstItem="0wV-JX-mxL" firstAttribute="top" secondItem="p8G-wm-Qf6" secondAttribute="bottom" constant="10" id="bq0-uN-uPp"/>
+                <constraint firstAttribute="trailing" secondItem="p8G-wm-Qf6" secondAttribute="trailing" constant="15" id="gt5-Ji-dZE"/>
+                <constraint firstItem="0wV-JX-mxL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lsp-8T-zcV"/>
+                <constraint firstItem="p8G-wm-Qf6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="oLz-HQ-y5i"/>
+                <constraint firstItem="p8G-wm-Qf6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="v6h-jX-Xsd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="154" height="145"/>
+            <connections>
+                <outlet property="imageAward" destination="p8G-wm-Qf6" id="Enb-cJ-H0w"/>
+                <outlet property="nameAward" destination="0wV-JX-mxL" id="LeR-04-628"/>
+            </connections>
+            <point key="canvasLocation" x="91.304347826086968" y="170.42410714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Parks/XC/Awards/global_compact" width="201" height="201"/>
+    </resources>
+</document>

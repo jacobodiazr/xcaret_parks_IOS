@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellXOKermesTour" id="gTV-IL-0wX" customClass="itemXO_KermesTourCollectionViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="366"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="366"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="¡Que empiece la fiesta!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wc0-tV-elp">
+                        <rect key="frame" x="5" y="0.0" width="348" height="29"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                        <color key="textColor" red="0.37399852280000001" green="0.53846114869999995" blue="0.69650918250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wAS-HD-Hsm">
+                        <rect key="frame" x="5" y="34" width="348" height="214.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" image="Parks/XO/Activities/xo_kermes3" translatesAutoresizingMaskIntoConstraints="NO" id="ua5-io-IaE">
+                                <rect key="frame" x="0.0" y="0.0" width="348" height="214.5"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ua5-io-IaE" firstAttribute="top" secondItem="wAS-HD-Hsm" secondAttribute="top" id="ACb-al-kIq"/>
+                            <constraint firstAttribute="trailing" secondItem="ua5-io-IaE" secondAttribute="trailing" id="GXp-xb-bAN"/>
+                            <constraint firstItem="ua5-io-IaE" firstAttribute="leading" secondItem="wAS-HD-Hsm" secondAttribute="leading" id="edl-84-jc9"/>
+                            <constraint firstAttribute="bottom" secondItem="ua5-io-IaE" secondAttribute="bottom" id="rxL-Ey-Zmn"/>
+                        </constraints>
+                    </view>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vB-VT-ym1">
+                        <rect key="frame" x="5" y="258.5" width="348" height="107.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+                        <color key="textColor" red="0.54901960780000003" green="0.61568627450000002" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="wAS-HD-Hsm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="0oQ-qU-OM0"/>
+                <constraint firstItem="wAS-HD-Hsm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="3Oo-n3-snS"/>
+                <constraint firstItem="wc0-tV-elp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="4MS-C6-tzT"/>
+                <constraint firstItem="wAS-HD-Hsm" firstAttribute="top" secondItem="wc0-tV-elp" secondAttribute="bottom" constant="5" id="Aky-6T-fkU"/>
+                <constraint firstItem="3vB-VT-ym1" firstAttribute="height" secondItem="wAS-HD-Hsm" secondAttribute="height" multiplier="5:10" id="EYj-j6-86h"/>
+                <constraint firstItem="3vB-VT-ym1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="F4v-0q-wz5"/>
+                <constraint firstAttribute="bottom" secondItem="3vB-VT-ym1" secondAttribute="bottom" id="IfT-0q-15Q"/>
+                <constraint firstItem="wAS-HD-Hsm" firstAttribute="top" secondItem="wc0-tV-elp" secondAttribute="bottom" constant="5" id="JZ0-Y0-cUb"/>
+                <constraint firstItem="3vB-VT-ym1" firstAttribute="top" secondItem="wAS-HD-Hsm" secondAttribute="bottom" constant="10" id="Vnj-7w-2Oo"/>
+                <constraint firstItem="wc0-tV-elp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="drn-rf-rOw"/>
+                <constraint firstItem="wAS-HD-Hsm" firstAttribute="top" secondItem="wc0-tV-elp" secondAttribute="bottom" constant="5" id="hgS-SY-GHT"/>
+                <constraint firstAttribute="trailing" secondItem="wAS-HD-Hsm" secondAttribute="trailing" constant="5" id="mvY-WO-4NF"/>
+                <constraint firstAttribute="trailing" secondItem="wAS-HD-Hsm" secondAttribute="trailing" constant="5" id="oZz-Cp-eVW"/>
+                <constraint firstAttribute="trailing" secondItem="wc0-tV-elp" secondAttribute="trailing" constant="5" id="pUm-m5-gSG"/>
+                <constraint firstAttribute="trailing" secondItem="3vB-VT-ym1" secondAttribute="trailing" constant="5" id="zgA-P8-8TI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="358" height="366"/>
+            <connections>
+                <outlet property="lblDescription" destination="3vB-VT-ym1" id="6Vp-8l-mXf"/>
+                <outlet property="lblTitle" destination="wc0-tV-elp" id="6lA-h5-ZvR"/>
+                <outlet property="viewImg" destination="wAS-HD-Hsm" id="jF2-lM-9NY"/>
+                <outlet property="viewImgs" destination="ua5-io-IaE" id="a2y-GI-2Bp"/>
+            </connections>
+            <point key="canvasLocation" x="360.86956521739131" y="259.15178571428572"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Parks/XO/Activities/xo_kermes3" width="1440" height="1000"/>
+    </resources>
+</document>

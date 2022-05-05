@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellProduct" rowHeight="209" id="KGk-i7-Jjw" customClass="itemProdPromTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="411" height="210"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="411" height="210"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NI4-oa-UCe">
+                        <rect key="frame" x="0.0" y="0.0" width="411" height="195"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Promociones/images/parques/default" translatesAutoresizingMaskIntoConstraints="NO" id="FBO-tS-ivI">
+                                <rect key="frame" x="15" y="15" width="165" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="LU3-dS-1p9"/>
+                                    <constraint firstAttribute="height" constant="165" id="yYl-qi-aYf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entrada Xcaret Básica" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mF-LV-lQz">
+                                <rect key="frame" x="190" y="12" width="201" height="19.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.37254901960784315" green="0.53725490196078429" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$48.86" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ktt-rJ-Qif">
+                                <rect key="frame" x="308" y="36.5" width="54" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.37254901960784315" green="0.53725490196078429" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jen-yZ-geo">
+                                <rect key="frame" x="365" y="39" width="26" height="15"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" red="0.37254901960784315" green="0.53725490196078429" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZw-cA-TKV">
+                                <rect key="frame" x="206.5" y="140" width="189.5" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.50980392156862742" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rsn-tF-Obs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="AGREGAR A CARRITO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonBuyProm:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dm8-7s-9hu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$48.86" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFV-XY-12v">
+                                <rect key="frame" x="322" y="54.5" width="44" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.5490196078431373" green="0.61568627450980395" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DK7-6N-btV">
+                                <rect key="frame" x="369" y="58" width="22" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.5490196078431373" green="0.61568627450980395" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4JW-P7-2Cd">
+                                <rect key="frame" x="15" y="140" width="176.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2Wh-Mb-Wbn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <state key="normal" title="Agregar a Carrito">
+                                    <color key="titleColor" red="1" green="0.50980392159999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.50980392159999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonAddCar:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="iXa-tq-5Ku"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Qué incluye tu entrada?" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpc-Y1-3Yc">
+                                <rect key="frame" x="190" y="75.5" width="206" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.95294117647058818" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7mF-LV-lQz" firstAttribute="leading" secondItem="FBO-tS-ivI" secondAttribute="trailing" constant="10" id="5a3-Rm-Maj"/>
+                            <constraint firstAttribute="bottom" secondItem="FBO-tS-ivI" secondAttribute="bottom" constant="15" id="BBi-gr-tIi"/>
+                            <constraint firstItem="4JW-P7-2Cd" firstAttribute="leading" secondItem="NI4-oa-UCe" secondAttribute="leading" constant="15" id="CXP-TH-hiU"/>
+                            <constraint firstItem="Jen-yZ-geo" firstAttribute="top" secondItem="7mF-LV-lQz" secondAttribute="bottom" constant="7.5" id="Ei8-JV-anh"/>
+                            <constraint firstItem="Zpc-Y1-3Yc" firstAttribute="leading" secondItem="FBO-tS-ivI" secondAttribute="trailing" constant="10" id="Hya-xW-maD"/>
+                            <constraint firstItem="4JW-P7-2Cd" firstAttribute="width" secondItem="NZw-cA-TKV" secondAttribute="width" multiplier="0.932331" id="JaG-7M-aA5"/>
+                            <constraint firstAttribute="trailing" secondItem="DK7-6N-btV" secondAttribute="trailing" constant="20" id="PPm-Nm-4UL"/>
+                            <constraint firstItem="DK7-6N-btV" firstAttribute="leading" secondItem="pFV-XY-12v" secondAttribute="trailing" constant="3" id="Q93-zf-Ozo"/>
+                            <constraint firstAttribute="trailing" secondItem="Jen-yZ-geo" secondAttribute="trailing" constant="20" id="Tt9-yX-z5i"/>
+                            <constraint firstAttribute="bottom" secondItem="NZw-cA-TKV" secondAttribute="bottom" constant="15" id="YCg-Uj-zcK"/>
+                            <constraint firstItem="7mF-LV-lQz" firstAttribute="top" secondItem="NI4-oa-UCe" secondAttribute="top" constant="12" id="Ykg-8B-XAn"/>
+                            <constraint firstAttribute="trailing" secondItem="7mF-LV-lQz" secondAttribute="trailing" constant="20" id="Zqc-PB-9cK"/>
+                            <constraint firstItem="Ktt-rJ-Qif" firstAttribute="top" secondItem="7mF-LV-lQz" secondAttribute="bottom" constant="5" id="a5x-7M-S4d"/>
+                            <constraint firstItem="DK7-6N-btV" firstAttribute="top" secondItem="Jen-yZ-geo" secondAttribute="bottom" constant="4" id="bd5-Ps-LXo"/>
+                            <constraint firstItem="Jen-yZ-geo" firstAttribute="leading" secondItem="Ktt-rJ-Qif" secondAttribute="trailing" constant="3" id="mRT-tl-IgF"/>
+                            <constraint firstItem="Zpc-Y1-3Yc" firstAttribute="top" secondItem="pFV-XY-12v" secondAttribute="bottom" constant="5" id="okW-cM-tOy"/>
+                            <constraint firstItem="FBO-tS-ivI" firstAttribute="leading" secondItem="NI4-oa-UCe" secondAttribute="leading" constant="15" id="ueX-hb-9AW"/>
+                            <constraint firstItem="pFV-XY-12v" firstAttribute="top" secondItem="Ktt-rJ-Qif" secondAttribute="bottom" id="wNt-J3-whE"/>
+                            <constraint firstItem="NZw-cA-TKV" firstAttribute="leading" secondItem="4JW-P7-2Cd" secondAttribute="trailing" constant="15" id="xbO-Fl-KAt"/>
+                            <constraint firstItem="FBO-tS-ivI" firstAttribute="top" secondItem="NI4-oa-UCe" secondAttribute="top" constant="15" id="xue-TV-cNX"/>
+                            <constraint firstAttribute="trailing" secondItem="NZw-cA-TKV" secondAttribute="trailing" constant="15" id="ypN-cu-VaE"/>
+                            <constraint firstAttribute="bottom" secondItem="4JW-P7-2Cd" secondAttribute="bottom" constant="15" id="zAd-Ry-Ki6"/>
+                            <constraint firstAttribute="trailing" secondItem="Zpc-Y1-3Yc" secondAttribute="trailing" constant="15" id="zsd-DG-5fO"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="NI4-oa-UCe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2z9-3C-B00"/>
+                    <constraint firstAttribute="bottom" secondItem="NI4-oa-UCe" secondAttribute="bottom" constant="15" id="aV2-vN-9V5"/>
+                    <constraint firstItem="NI4-oa-UCe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kDJ-XQ-9yz"/>
+                    <constraint firstAttribute="trailing" secondItem="NI4-oa-UCe" secondAttribute="trailing" id="yVn-lL-13g"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="10"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ConstraintHImg" destination="yYl-qi-aYf" id="fNP-9g-IMd"/>
+                <outlet property="ConstraintWImg" destination="LU3-dS-1p9" id="N31-zm-Pol"/>
+                <outlet property="btnBuy" destination="NZw-cA-TKV" id="7Qa-g1-9sO"/>
+                <outlet property="buyPromButton" destination="4JW-P7-2Cd" id="9En-Ae-fCa"/>
+                <outlet property="img" destination="FBO-tS-ivI" id="5y7-pm-E1r"/>
+                <outlet property="incluyeConstraintTop" destination="okW-cM-tOy" id="bPf-hP-0Wd"/>
+                <outlet property="lblCurrencyDescuento" destination="DK7-6N-btV" id="7dd-Ws-Zhy"/>
+                <outlet property="lblDescuento" destination="pFV-XY-12v" id="g4E-30-kv3"/>
+                <outlet property="lblIncluye" destination="Zpc-Y1-3Yc" id="asA-OJ-F2e"/>
+                <outlet property="lblNamePark" destination="7mF-LV-lQz" id="dOa-75-yZ5"/>
+                <outlet property="lblPrince" destination="Ktt-rJ-Qif" id="Bp5-mI-62y"/>
+                <outlet property="lblcurrency" destination="Jen-yZ-geo" id="I9c-hI-aaw"/>
+            </connections>
+            <point key="canvasLocation" x="39.855072463768117" y="106.47321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Promociones/images/parques/default" width="363" height="363"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

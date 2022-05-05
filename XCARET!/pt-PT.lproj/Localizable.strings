@@ -1,0 +1,312 @@
+/* 
+  Localizable.strings
+  XCARET!
+
+  Created by Angelica Can on 11/13/18.
+  Copyright © 2018 Angelica Can. All rights reserved.
+*/
+
+/*Launch*/
+"lblCopyright" = "Grupo Xcaret 2019 - All rights reserved";
+
+/*Alerts Crear Cuenta*/
+"alertEmail" = "Verify email";
+"alertPass" = "Provide a password";
+"alertConfirm" = "Provide your password confirmation";
+"alertNotMatch" = "Password does not match";
+"alertName" = "Provide your name";
+"alertLastName" = "Provide your last name";
+"alertCountry" = "Provide your country";
+"alertAccountExist" = "An account with this email already exists";
+"alertEmailNotExist" = "Your email was not found, verify your information";
+"alertSendEmail" = "An email has been sent to your email to retrieve your password";
+"alertLocationDenied" = "Necesitamos ayuda para encontrarte. Habilita el acceso a la ubicación de XCARET! en Ajustes de tu iPhone.";
+
+/*Firebase Errors*/
+"lblErrAccountExist" = "The email is already in use with another account.";
+"lblErrAccountNotExist" = "Account not found for the specified user. Please, check and try again.";
+"lblErrAccountForgot" = "Your account has been disabled. Please, contact support.";
+"lblErrInvalidEmail" = "Please, enter a valid email.";
+"lblErrNotNetwork" = "Network error. Please try again.";
+"lblErrPassWeak" = "Your password is too weak. It must be 6 characters long, at least.";
+"lblErrPassIncorrect" = "Your password is incorrect. Please try again or enter 'Forgot Password' to reset it.";
+"lblErrorUnknow" = "Unknown error occurred.";
+
+/*Home*/
+"lblNewXC" = "New at Xcaret";
+"lblNewXH" = "Must-Do Activities";
+"lblNewXS" = "Must Icon Attraccions";
+"lblActEssentials" = "Must-Do Activities";
+"descActEssentials" = "You're at the best park in the world! Visit these attractions, or you haven't been to Xcaret.";
+"lblRestaurants" = "Restaurants";
+"lblActDescubrir" = "Attractions";
+"lblActExtra" = "Dream activities";
+"descActExtraXC" = "Have fun with these fantastic experiences at Xcaret. They required prior reservation at an additional cost.";
+"descActExtraXH" = "Have fun with these fantastic experiences at Xel-há. They required prior reservation at an additional cost.";
+"lblPresentations" = "Performances";
+"descPresentations" = "The best of Mexico in one place! Hundreds of onstage artists are waiting for you in fabulous performances!";
+"lblAll" = "See all the activities";
+"lblSeeMap" = "Map";
+"lblAllActivities" = "All the activities";
+"lblCallCenter" = "Call now";
+"lblCallCenterHotel" = "Reserva ahora llamando al call center";
+"lblHello" = "Hello!";
+"lblBooking" = "Buy now";
+"lblParks" = "Parks";
+"lblXensatorium" = "Path of Doing";
+"lblDescXensatorium" = "A journey full of surprises where you will see everything from a different perspective. Get wondered and sense the world in a whole different way.";
+"lblDowntown" = "Path of Feeling";
+"lblDescDowntown" = "Challenge your perception on a path where you will notice everything differently. Your senses will get sharper after visiting Xenses.";
+"lblNewVersion" = "New Version";
+"lblLeyendVersion" = "%@ Version %@ is available on AppStore.";
+"lblOptNotNow" = "Not Now";
+"lblOptUpdate" = "Update";
+"lblRehilete" = "Pinwheel";
+//Home - XV
+"lblChooseYourAdmissioTitlen" = "Get into a great adventure.";
+"lblBasicActivities" = "Basic Activities";
+"lblBasicActivitiesDesc" = "Take the activities as many times as you want! Plus, your admission includes unlimited meals and non-alcoholic beverages.";
+"lblFoodAndBeverages" = "Food and Beverages";
+"lblMoreExcitingActivities" = "More Exciting Activities";
+"lblMoreExcitingActivitiesDesc" = "Find only here these thrilling activities! Unlimited fun awaits at Xavage.";
+"lblBuyNow" = "BUY NOW";
+
+
+
+/*Cells & tables*/
+"lblSeeRestaurants" = "Restaurants";
+"lblSchedule" = "Hours";
+"lblDuration" = "Duration";
+"lblAboutXcaret" = "About %@";
+"lblTitleAwards" = "Our awards";
+"lbNotePersons" = "Persons";
+"lblNoteYearsOld" = "Years Old";
+"lblNoteDeep" = "Deep";
+"lblNoteHeight" = "Height";
+"lblTitleRestaurants" = "Restaurants";
+"lblTitleSubcategory" = "More %@ options";
+"lblBtnCallCenterAct" = "Buy your Dream Activity";
+"lblWarnings" = "Warnings";
+"lblRestrictions" = "Restrictions";
+"lblInclude2" = "Include";
+"lblRecommendations" = "Recommendations";
+"lblRetrieving" = "Retrieving data.\nPlease wait.";
+
+
+"tbHome" = "Home";
+"tbFavorites" = "Favorites";
+"tbSearch" = "Search";
+"tbMenu" = "Menu";
+
+/*Menu general*/
+"lblPhone" = "Questions? Call us";
+"lblEmail" = "Email us";
+"lblChangeLang" = "Language";
+"lblReviewApp" = "Leave us your Review";
+"lblTerms" = "Terms and Conditions";
+"lblPolicies" = "Privacy Policy";
+"lblLogout" = "Logout";
+"lblSignup" = "Create account";
+"lblReturnParks" = "All Parks";
+"lblLeyendClose" = "Do you want to close your session?";
+"lblSubjectEmail" = "App Comment";
+"lblErrorEmail" = "Unable to send email. Please check your email settings and try again.";
+"lblErrorFailed" = "Failed";
+"lblError" = "Error";
+"lblGuest" = "Guest";
+"lblUpdate" = "Update App";
+
+
+/*Contact*/
+"lblCallInside" = "Toll-free within Mexico";
+"lblCallFrom" = "Calling from";
+"lblCallInglish" = "For English";
+"lblCallSpanish" = "For Spanish";
+"lblCallUsaCan" = "USA-CANADA";
+"lblLangES" = "Spanish";
+"lblLangEN" = "English ";
+
+/*Others*/
+"lblBack" = "Back";
+"lblNotInclude" = "Additional cost";
+"lblInclude" = "Included with your admission";
+"lblIncludeAllInclusiveXV" = "Activity part of the All-Inclusive admission";
+"lblIncludeBasicXV" = "Activity included with your admission";
+"lblMoreActivities" = "More activities";
+"lblMoreRestaurants" = "More Restaurants";
+"lblMyFavorites" = "My Favorites";
+"lblMySearch" = "My Search";
+"lblFilter" = "Filter";
+"lblClose" = "Close";
+"lblTitleNotResult" = "Boo!";
+"lblDescNotResult" = "You didn't search right, try again";
+"lblResultNotFound" = "Boo! You didn't search right, try again";
+"lblSearchEmpty" = "Do you want to find some experience?";
+"lblAddFavorites" = "Your favorites are empty! Tap on the hearts to add your activities";
+"lbl500" = "Something happened";
+"lblChageLang" = "In order to change the language, the App must be closed and reopened by you.";
+"lblRestart" = "App restart required";
+"lblCloseApp" = "Close now";
+"lblCancel" = "Cancel";
+"lblTitleNotFav" = "So sad!";
+"lblDescNotFav" = "You haven't added any attractions and activities to your favorites";
+"lblAccept" = "Accept";
+"lblSearch" = "Attractions, places, color or route names";
+"lydNotCode" = "Ops! Your download code has a technical difficulty. Please, contact our customer service center:";
+
+/*Photos*/
+"lblLeyendNotAlbums" = "Enter your download code in your purchase ticket.";
+"placeHolderCode" = "Enter your download code";
+"lblNoPhotos" = "Photos";
+"lblVisitDate" = "Date of visit";
+"lblIncluded" = "Included";
+"lydHeaderAlbum" = "You bought %@ parks. There are %@ #%@";
+"lydHeaderAlbumComplete" = "You bought %@ parks. #%@";
+
+"lblExcedUnlock" = "Ya has desbloqueado los albumes que compraste \nComprado: %@ - Desbloqueado: %@";
+"lydNotFoundAlbum" = "No hemos encontrado algún albúm con ese código, verifique y vuelva a intentarlo";
+"lydCodeExist" = "Ya has registrado este código";
+"btnTabAlbum" = "Albums";
+"btnTabShare" = "Share";
+"btnTabSend" = "Send in HD";
+"btnTabBack" = "Regresar";
+"bntShare" = "Share";
+"btnCancel" = "Cancel";
+
+/*Title Photos*/
+"titleAlbums" = "My albums";
+"titlePhotosByAlbum" = "My photos - %@";
+"titlePhotos" = "My photos";
+"titleSelectPhotos" = "Select your photos";
+"notePhoto" = "Note:";
+"infoNotePhoto" = " your photos will be available within the next 24 hours.";
+"titleTickets" = "My Tickets";
+
+//Hotel
+"titleHouse" = "Casas";
+"subtitleHouse" = "The 900 suites are distributed into buildings or Casas. Each has an original ambiance represented by a natural element.";
+"titleRooms" = "Rooms";
+"subtitleRooms" = "Sophisticated spaces with unique amenities and services. Keep in touch with nature and enjoy the magnificent view.";
+"titleGastronomy" = "Gastronomy";
+"subtitleGastronomy" = "Ten restaurants and eight bars at Hotel Xcaret México will take you to a journey of flavors around the world, featuring the Mexican gastronomy.";
+"titleAFI" = "All-Fun Inclusive®";
+"subtitleAFI" = "Enjoy a one of a kind experience that includes food, beverages, and unlimited access to the Grupo Xcaret parks and tours, plus transportation and airport-hotel-airport transfers.";
+"titleSpa" = "Spa Muluk";
+"subtitleSpa" = "Pamper yourself in an intimate atmosphere inspired in ancient traditions. Renew mind, body, and spirit while stimulating your senses with one of our treatments.";
+"titleLocation" = "Location";
+"titleContactUs" = "Contact Us";
+
+/*Contact Hotel*/
+"countryMX" = "Mexico";
+"countrySP" = "Spain";
+"countryBR" = "Brazil";
+"countryCO" = "Colombia";
+"countryCH" = "Chile";
+"countryPE" = "Peru";
+"countryGR" = "Germany";
+"countryUK" = "UK";
+"countryIT" = "Italy";
+"countryFR" = "France";
+"countryEU" = "USA";
+"countryCA" = "Canada";
+"cityCUN" = "Cancún";
+"cityRIV" = "Riviera Maya";
+"countryUSACAN" = "USA - CAN";
+"countryAR" = "Argentina";
+"lblCallTitle" = "Customer Service";
+"lblCallDescription" = "Monday to Friday from 7:00 a.m. at 12:00 a.m. Saturdays and Sundays from 7:00 a.m. at 10:00 p.m. Quintana Roo local time.";
+
+/*Tickets*/
+"lblTInclude" = "Included";
+"lblTNotInclude" = "Not included";
+"lblBuyNowPark" = "Get your admission to %@";
+"lblBtnBuy" = "Buy";
+"lblBtnGoTickets" = "Go Tickets";
+"lblDateOfVisit" = "Date of visit";
+"lblAdults" = "Adults";
+"lblChildrens" = "Childrens";
+"lblInfants" = "Infants";
+"lblAyB" = "Food and beverages";
+"lblPhotopass" = "Photopass";
+"lblTransportation" = "Transportation";
+"lblLocationPickup" = "Hotel";
+"lblSchedulePickup" = "Schedule";
+"lblActiveTicket" = "Active";
+"lblThanksVisit" = "Thank you for your visit";
+"lblCancelVisit" = "Cancelled";
+"lblContracargoVisit" = "In clarification";
+"lblLeyendPoliticsCard" = "The cardholder must sign a printed ticket to get the admission bracelets at the Park's ticket booth. In case of not visiting, a legible copy of the credit card and an official ID of the cardholder are required.";
+"lblNotConection" = "There is no connection with the ticket center at this moment. You can use this offline ticket to enter a park or tour you have purchased. Try again later to visualize correctly your tickets.";
+"lblThanksPhotopass" = "Thanks for getting yout Photopass";
+
+/*SignUp*/
+"lblCreateSocialLogin" = "Create account with";
+"lblCreateUserLogin" = "or enter your data";
+"lblBtnCreateAccount" = "Create";
+
+/*XP/XF*/
+"lblAerialTitleXP" = "Aerial Activities";
+"lblAerialDescXP" = "Fly over the jungle and enjoy the view from above!";
+"lblLandTitleXP" = "Land Activities";
+"lblLandDescXP" = "Have great emotions among the jungle, you will love these activities!";
+"lblUndergroundTitleXP" = "Underground Activities";
+"lblUndergroundDescXP" = "Descend into the bowels of the Earth and explore a landscape full of stalactites and stalagmites.";
+
+"lblAerialTitleXF" = "Aerial Activities";
+"lblAerialDescXF" = "Enjoy the view under the starry sky of Riviera Maya!";
+"lblLandTitleXF" = "Land Activities";
+"lblLandDescXF" = "Have an adventure amidst the jungle, lit only by torches.";
+"lblUndergroundTitleXF" = "Underground Activities";
+"lblUndergroundDescXF" = "Discover caves and flooded caverns formed thousands of years ago at Riviera Maya.";
+
+"lblhrs12XP" = "8 am to 5 pm";
+"lblhrs12XF" = "5:30 pm to 12 am";
+"lblhrs24XP" = "8 hrs to 17 hrs";
+"lblhrs24XF" = "17:30 hrs to 00 hrs";
+
+"lblTitleChooseXP" = "Choose your adventure";
+"lblDescriptionChooseXP" = "Are you looking for a daytime quest or you prefer an astounding nighttime adventure?";
+
+/*XO*/
+"lblTitlEventsKMXO" = "Events";
+"lblTitleKMXO" = "Mexican carnival welcome";
+"lblDescriptionKMXO" = "At your arrival, a Mexican carnival will be waiting for you. Have a great time at the carnival games before boarding the gondola.";
+
+"lblTitleXOKermes_0" = "Mexican carnival welcome";
+"lblDescription_0" = "At your arrival, a Mexican carnival will be waiting for you. Have a great time at the carnival games before boarding the “Trajinera”.";
+
+"lblTitleXOKermes_1" = "The tour starts";
+"lblDescription_1" = "Welcome aboard! Your host will introduce everybody to have a toast, make fun games, and let you taste a delicious Mexican dinner.";
+
+"lblTitleXOKermes_2" = "Visit the Town";
+"lblDescription_2" = "Take a moment to stretch your legs at the Town. Live music and fun are on while you recharge batteries for the second leg at your “trajinera”.";
+
+"lblTitleXOKermes_3" = "Let the party begins!";
+"lblDescription_3" = "It's time to board the trajinera again. The steersman will approach the Mariachi, marimba, and other musical ensembles. Dance and sing to great tunes along with your “compadres” from nearby trajineras.";
+
+/*XENOTES*/
+"lblTitleActividadesXN" = "Activities to be thrilled";
+"lblTitleDescriptionXN" = "Each cenote you'll visit offers different activities! Plus, as being a small group tour, you can enjoy them to the fullest.";
+
+"lblTitleTiposXN" = "What are cenotes?";
+"lblTitleTiposDescriptionXN" = "They are natural pools fed by the currents of underground rivers and rain filtrations. Their beauty attracts visitors from around the globe, and there are different types.";
+
+/*XICHEN*/
+"lblTitleActivitiesXI" = "Main Attractions";
+"lblDescriptionActivitiesXI" = "As enigmatic as surprising, Chichén Itzá awaits. Walk by its main temples and structures, get into its secrets, and enjoy an astounding tour through the top Maya archaeological site along with a professional guide.";
+"lblTitleCenotesXI" = "What are Cenotes?";
+"lblDescriptionCenotesXI" = "Cenotes were sacred places for the Maya and gateways to the underworld or Xibalba. Even some of them had restricted access, and only royalty can swim. Their formation is due to the eroded limestone soil and the flow of underground rivers in the Yucatan Peninsula. Discover Zací cenote or the Blue Cenote at Ik’Kil at the Xichén Tours.";
+"lblTitleValladolidXI" = "Valladolid";
+"lblDescriptionValladolidXI" = "This Colonial jewel was founded in 1543 and is the second largest city in the state of Yucatan. Since 2012 is a Magical Town of Mexico, plus being a place full of history and culture. Walk its streets, take photographs, and have unforgettable moments here during a Chichén Itzá tour.";
+
+/*PARQUES ABIERTOS O CERRADOS*/
+
+"titleDescCerradoName" = "We want to see you soon!";
+"titleDescCerradoDescription" = "We will be ready for you to enjoy fantastic adventures.";
+
+"titleDescAbiertoName" = "We are waiting for you!";
+"titleDescAbiertoDescription" = "For your safety, we have implemented sanitation protocols at the park, plus antibacterial gel and handwashers stations.";
+
+
+
+

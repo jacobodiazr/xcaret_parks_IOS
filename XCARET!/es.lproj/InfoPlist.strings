@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  XCARET!
+
+  Created by YEiK on 08/11/21.
+  Copyright © 2021 Angelica Can. All rights reserved.
+*/
+"NSUserTrackingUsageDescription" = "Sus datos se utilizarán para enviarle anuncios personalizados";

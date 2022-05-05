@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellHomePref" rowHeight="158" id="KGk-i7-Jjw" customClass="homePrefTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="158"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n7j-W7-TDq" customClass="GradientView" customModule="XCARET_" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="FUO-ea-IO6">
+                                <rect key="frame" x="0.0" y="44" width="320" height="102"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="sct-gE-g5s"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="K0s-lq-TIb">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Bp-bY-P9j" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="160" y="54" width="125" height="45"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="7a1-g1-zM8"/>
+                                    <constraint firstAttribute="width" constant="125" id="Hm4-Ot-pIy"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="FUO-ea-IO6" secondAttribute="bottom" id="JtO-R9-MjZ"/>
+                            <constraint firstAttribute="trailing" secondItem="6Bp-bY-P9j" secondAttribute="trailing" constant="35" id="Koi-Mh-7ek"/>
+                            <constraint firstAttribute="trailing" secondItem="FUO-ea-IO6" secondAttribute="trailing" id="V7d-Zh-y0N"/>
+                            <constraint firstItem="6Bp-bY-P9j" firstAttribute="top" secondItem="n7j-W7-TDq" secondAttribute="top" constant="54" id="aMw-G7-kug"/>
+                            <constraint firstItem="FUO-ea-IO6" firstAttribute="leading" secondItem="n7j-W7-TDq" secondAttribute="leading" id="ggs-8K-bzr"/>
+                            <constraint firstItem="FUO-ea-IO6" firstAttribute="top" secondItem="n7j-W7-TDq" secondAttribute="top" constant="44" id="pMK-Ie-Qcx"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                <color key="value" red="0.58823529409999997" green="0.83921568629999999" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="n7j-W7-TDq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="53Y-9o-NhC"/>
+                    <constraint firstAttribute="bottom" secondItem="n7j-W7-TDq" secondAttribute="bottom" id="9xh-6X-Awt"/>
+                    <constraint firstItem="n7j-W7-TDq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="dkY-4x-WvW"/>
+                    <constraint firstAttribute="trailing" secondItem="n7j-W7-TDq" secondAttribute="trailing" id="y9t-HH-5Eg"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                    <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                        <color key="value" red="0.58823529411764708" green="0.83921568627450982" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="animationViewXafety" destination="6Bp-bY-P9j" id="ugp-8L-u0Y"/>
+                <outlet property="collectionView" destination="FUO-ea-IO6" id="rMh-1b-EzE"/>
+                <outlet property="constraintTopAnimationDevice" destination="aMw-G7-kug" id="k5o-CR-kdv"/>
+                <outlet property="constraintTopDevice" destination="pMK-Ie-Qcx" id="JPP-FY-dJe"/>
+                <outlet property="heightCollectionViewConstraint" destination="sct-gE-g5s" id="k0W-O9-No7"/>
+            </connections>
+            <point key="canvasLocation" x="-75.362318840579718" y="105.80357142857143"/>
+        </tableViewCell>
+    </objects>
+</document>

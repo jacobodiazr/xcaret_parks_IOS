@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Hemos detectado que tienes problemas con tu código de descarga, por favor comunicate al centro de atención al cliente"; ObjectID = "6aR-0r-9TE"; */
+"6aR-0r-9TE.text" = "Hemos detectado que tienes problemas con tu código de descarga, por favor comunicate al centro de atención al cliente";
+
+/* Class = "UITextField"; placeholder = "Código de fotopass"; ObjectID = "BTc-BR-zTL"; */
+"BTc-BR-zTL.placeholder" = "Código de fotopass";
+
+/* Class = "UIButton"; normalTitle = "México"; ObjectID = "BjM-ru-vgC"; */
+"BjM-ru-vgC.normalTitle" = "Extranjero";
+
+/* Class = "UIButton"; normalTitle = "Enviar"; ObjectID = "DhB-u4-lKI"; */
+"DhB-u4-lKI.normalTitle" = "Enviar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "EaD-ag-wtn"; */
+"EaD-ag-wtn.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Escanea el código de barras o ingresa tu código que se encuentra en tu ticket de compra"; ObjectID = "QhT-2w-Wl7"; */
+"QhT-2w-Wl7.text" = "Escanea el código de barras o ingresa tu código que se encuentra en tu ticket de compra";
+
+/* Class = "UIButton"; normalTitle = "Cancelar"; ObjectID = "VWf-MD-ANB"; */
+"VWf-MD-ANB.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Compartir"; ObjectID = "baK-tA-t2m"; */
+"baK-tA-t2m.normalTitle" = "Compartir";
+
+/* Class = "UIButton"; normalTitle = "Regresar"; ObjectID = "cHN-jb-rUV"; */
+"cHN-jb-rUV.normalTitle" = "Regresar";
+
+/* Class = "UIButton"; normalTitle = "Compartir"; ObjectID = "eyb-wc-N4U"; */
+"eyb-wc-N4U.normalTitle" = "Compartir";
+
+/* Class = "UIButton"; normalTitle = "Compartir"; ObjectID = "fip-a1-l9G"; */
+"fip-a1-l9G.normalTitle" = "Compartir";
+
+/* Class = "UIButton"; normalTitle = "Albums"; ObjectID = "hcs-U2-Kao"; */
+"hcs-U2-Kao.normalTitle" = "Albums";
+
+/* Class = "UIButton"; normalTitle = "México"; ObjectID = "jqL-gq-QAb"; */
+"jqL-gq-QAb.normalTitle" = "México";
+
+/* Class = "UINavigationItem"; title = "Mis Fotos"; ObjectID = "vet-UO-z5s"; */
+"vet-UO-z5s.title" = "Mis Fotos";

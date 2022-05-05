@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alert Default View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AlertDefault" id="Y6W-OH-hqX" customClass="AlertDefaultViewController" customModule="XCARET_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="90H-as-1NY">
+                                <rect key="frame" x="57" y="333" width="300" height="230"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWE-Lq-RcV">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="145"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alert/help" translatesAutoresizingMaskIntoConstraints="NO" id="SFv-pn-5lt">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="145"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="tap_cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="SFv-pn-5lt" secondAttribute="trailing" id="0NB-Ky-xSB"/>
+                                            <constraint firstAttribute="height" constant="145" id="DXh-w1-MYf"/>
+                                            <constraint firstAttribute="bottom" secondItem="SFv-pn-5lt" secondAttribute="bottom" id="HvH-ZD-RPT"/>
+                                            <constraint firstItem="SFv-pn-5lt" firstAttribute="leading" secondItem="zWE-Lq-RcV" secondAttribute="leading" id="c9g-eV-X7Z"/>
+                                            <constraint firstItem="SFv-pn-5lt" firstAttribute="top" secondItem="zWE-Lq-RcV" secondAttribute="top" id="w0O-zH-jcC"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="tap_cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Ocurrio un error inesperado, vuelva a intenralo mas tarde" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ulu-pr-QID">
+                                        <rect key="frame" x="30" y="165" width="240" height="20"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="ulu-pr-QID" firstAttribute="top" secondItem="zWE-Lq-RcV" secondAttribute="bottom" constant="20" id="1aI-aY-u4g"/>
+                                    <constraint firstItem="zWE-Lq-RcV" firstAttribute="top" secondItem="90H-as-1NY" secondAttribute="top" id="289-dW-jB8"/>
+                                    <constraint firstAttribute="width" constant="300" id="Kh2-NE-wxy"/>
+                                    <constraint firstItem="ulu-pr-QID" firstAttribute="leading" secondItem="90H-as-1NY" secondAttribute="leading" constant="30" id="Zmu-AB-IBF"/>
+                                    <constraint firstAttribute="trailing" secondItem="zWE-Lq-RcV" secondAttribute="trailing" id="f35-ht-3JJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="ulu-pr-QID" secondAttribute="trailing" constant="30" id="iKX-xW-bO2"/>
+                                    <constraint firstItem="zWE-Lq-RcV" firstAttribute="leading" secondItem="90H-as-1NY" secondAttribute="leading" id="seh-89-qeP"/>
+                                    <constraint firstAttribute="height" constant="230" id="uKj-cz-luy"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="tap_cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCw-f6-fx4">
+                                <rect key="frame" x="182" y="538" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="86H-yG-4CC"/>
+                                    <constraint firstAttribute="width" constant="50" id="bKP-Ff-lej"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="Icons/ico_close"/>
+                                <connections>
+                                    <action selector="btnClose:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="A3C-pE-nbp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="90H-as-1NY" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="6Ua-0v-zW4"/>
+                            <constraint firstItem="aCw-f6-fx4" firstAttribute="top" secondItem="90H-as-1NY" secondAttribute="bottom" constant="-25" id="GqN-AY-Cqg"/>
+                            <constraint firstItem="aCw-f6-fx4" firstAttribute="top" secondItem="ulu-pr-QID" secondAttribute="bottom" constant="20" id="OyF-YK-ISB"/>
+                            <constraint firstItem="90H-as-1NY" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="T0C-L2-eCQ"/>
+                            <constraint firstItem="aCw-f6-fx4" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="edD-M5-dri"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="heightConstraint" destination="uKj-cz-luy" id="u9b-L1-spf"/>
+                        <outlet property="img" destination="SFv-pn-5lt" id="wzL-n9-GlU"/>
+                        <outlet property="imgHeightConstraint" destination="DXh-w1-MYf" id="Cxe-MC-yiy"/>
+                        <outlet property="textAlert" destination="ulu-pr-QID" id="XSY-px-O9G"/>
+                        <outlet property="viewContentAlert" destination="90H-as-1NY" id="ktD-E8-BLR"/>
+                        <outlet property="widhtConstraint" destination="Kh2-NE-wxy" id="JIX-bL-ynF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alert/help" width="461" height="231"/>
+        <image name="Icons/ico_close" width="121" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

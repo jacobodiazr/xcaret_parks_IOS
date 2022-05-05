@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellRoom" rowHeight="269" id="KGk-i7-Jjw" customClass="ItemRoomTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="271"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="270.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7I8-4c-weT">
+                        <rect key="frame" x="16" y="0.0" width="288" height="29"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                        <color key="textColor" red="0.30588235289999999" green="0.45882352939999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2a-By-Z85">
+                        <rect key="frame" x="16" y="39" width="288" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.47843137250000001" green="0.5450980392" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tP2-6L-yDc">
+                        <rect key="frame" x="5" y="68.5" width="310" height="190"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parks/XC/Activities/las_rocas_bar" translatesAutoresizingMaskIntoConstraints="NO" id="DpJ-ef-b8I">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="190"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZX-4M-TOI" customClass="GradientView" customModule="XCARET_" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="90" width="310" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0LN-aQ-oPD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                        <color key="value" white="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfu-I3-24c">
+                                <rect key="frame" x="8" y="158.5" width="294" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mfu-I3-24c" secondAttribute="trailing" constant="8" id="207-Xt-BdF"/>
+                            <constraint firstAttribute="bottom" secondItem="DpJ-ef-b8I" secondAttribute="bottom" id="82v-7z-lqR"/>
+                            <constraint firstItem="mfu-I3-24c" firstAttribute="leading" secondItem="tP2-6L-yDc" secondAttribute="leading" constant="8" id="9Wm-kW-s0W"/>
+                            <constraint firstAttribute="bottom" secondItem="KZX-4M-TOI" secondAttribute="bottom" id="DJB-in-lYC"/>
+                            <constraint firstAttribute="height" constant="190" id="HGH-7T-aen"/>
+                            <constraint firstItem="KZX-4M-TOI" firstAttribute="leading" secondItem="tP2-6L-yDc" secondAttribute="leading" id="Hnd-Nu-E89"/>
+                            <constraint firstAttribute="trailing" secondItem="KZX-4M-TOI" secondAttribute="trailing" id="K7N-Fa-Lkb"/>
+                            <constraint firstItem="DpJ-ef-b8I" firstAttribute="top" secondItem="tP2-6L-yDc" secondAttribute="top" id="PMY-vU-gva"/>
+                            <constraint firstItem="DpJ-ef-b8I" firstAttribute="leading" secondItem="tP2-6L-yDc" secondAttribute="leading" id="Qcf-cg-ZbK"/>
+                            <constraint firstAttribute="trailing" secondItem="DpJ-ef-b8I" secondAttribute="trailing" id="T4f-I1-ZbL"/>
+                            <constraint firstAttribute="bottom" secondItem="mfu-I3-24c" secondAttribute="bottom" constant="10" id="mui-AR-Qz2"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="7I8-4c-weT" secondAttribute="trailing" constant="16" id="2Bl-pf-A9C"/>
+                    <constraint firstItem="7I8-4c-weT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Asb-yK-BEZ"/>
+                    <constraint firstItem="7I8-4c-weT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="BgS-9N-Vdd"/>
+                    <constraint firstAttribute="trailing" secondItem="M2a-By-Z85" secondAttribute="trailing" constant="16" id="Gt5-Vc-hRc"/>
+                    <constraint firstItem="M2a-By-Z85" firstAttribute="top" secondItem="7I8-4c-weT" secondAttribute="bottom" constant="10" id="VcD-qz-fg2"/>
+                    <constraint firstAttribute="bottom" secondItem="tP2-6L-yDc" secondAttribute="bottom" constant="12" id="hnW-2W-Kmq"/>
+                    <constraint firstItem="tP2-6L-yDc" firstAttribute="top" secondItem="M2a-By-Z85" secondAttribute="bottom" constant="10" id="mXQ-Oa-fWq"/>
+                    <constraint firstItem="M2a-By-Z85" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="oA5-og-OZB"/>
+                    <constraint firstItem="tP2-6L-yDc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="s1c-gq-Kzs"/>
+                    <constraint firstAttribute="trailing" secondItem="tP2-6L-yDc" secondAttribute="trailing" constant="5" id="tIP-Hl-Guf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageSlide" destination="DpJ-ef-b8I" id="OQF-aL-zzt"/>
+                <outlet property="lblDescription" destination="M2a-By-Z85" id="1im-by-Jmi"/>
+                <outlet property="lblRoom" destination="mfu-I3-24c" id="Fie-CT-X8O"/>
+                <outlet property="lblTitle" destination="7I8-4c-weT" id="kmb-7b-DrZ"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="111.49553571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Parks/XC/Activities/las_rocas_bar" width="1440" height="1800"/>
+    </resources>
+</document>

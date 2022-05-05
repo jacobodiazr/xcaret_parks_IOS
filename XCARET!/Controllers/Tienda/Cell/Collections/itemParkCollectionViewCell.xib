@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="itemParkS" id="gTV-IL-0wX" customClass="itemParkCollectionViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="152" height="196"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="152" height="196"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9u-U9-rif">
+                        <rect key="frame" x="0.0" y="0.0" width="152" height="196"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Headers/XC/default" translatesAutoresizingMaskIntoConstraints="NO" id="irb-yG-Hxk">
+                                <rect key="frame" x="0.0" y="0.0" width="152" height="152"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="152" id="Fj7-XU-cJq"/>
+                                    <constraint firstAttribute="height" constant="152" id="aDT-0r-9hp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xplore Fuego desde" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoM-Qa-V9P">
+                                <rect key="frame" x="0.0" y="157" width="152" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="xYm-Ae-LSh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD 1,000,000.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRZ-WN-Ffz">
+                                <rect key="frame" x="0.0" y="173" width="152" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="tVN-52-SOY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KoM-Qa-V9P" firstAttribute="leading" secondItem="R9u-U9-rif" secondAttribute="leading" id="416-0y-JgN"/>
+                            <constraint firstItem="VRZ-WN-Ffz" firstAttribute="leading" secondItem="R9u-U9-rif" secondAttribute="leading" id="7mD-eP-AZn"/>
+                            <constraint firstAttribute="bottom" secondItem="VRZ-WN-Ffz" secondAttribute="bottom" constant="7" id="Ayd-UE-q7W"/>
+                            <constraint firstItem="VRZ-WN-Ffz" firstAttribute="top" secondItem="KoM-Qa-V9P" secondAttribute="bottom" id="D6W-s5-v5C"/>
+                            <constraint firstAttribute="width" constant="152" id="I0j-vB-qEH"/>
+                            <constraint firstAttribute="trailing" secondItem="KoM-Qa-V9P" secondAttribute="trailing" id="Sp1-iQ-jro"/>
+                            <constraint firstItem="irb-yG-Hxk" firstAttribute="leading" secondItem="R9u-U9-rif" secondAttribute="leading" id="hQ5-Uy-8K8"/>
+                            <constraint firstAttribute="trailing" secondItem="VRZ-WN-Ffz" secondAttribute="trailing" id="i4Q-nQ-l8r"/>
+                            <constraint firstItem="KoM-Qa-V9P" firstAttribute="top" secondItem="irb-yG-Hxk" secondAttribute="bottom" constant="5" id="ii3-dU-8sX"/>
+                            <constraint firstItem="irb-yG-Hxk" firstAttribute="top" secondItem="R9u-U9-rif" secondAttribute="top" id="nes-yY-qcR"/>
+                            <constraint firstAttribute="trailing" secondItem="irb-yG-Hxk" secondAttribute="trailing" id="pdy-Yh-NCg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="R9u-U9-rif" secondAttribute="bottom" id="JbC-Np-XB4"/>
+                <constraint firstItem="R9u-U9-rif" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NYa-PY-8bw"/>
+                <constraint firstAttribute="trailing" secondItem="R9u-U9-rif" secondAttribute="trailing" id="f1Y-du-wg2"/>
+                <constraint firstItem="R9u-U9-rif" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hUg-PP-W07"/>
+            </constraints>
+            <size key="customSize" width="152" height="196"/>
+            <connections>
+                <outlet property="constraintHimg" destination="aDT-0r-9hp" id="Kvj-GJ-RO7"/>
+                <outlet property="constraintViewW" destination="I0j-vB-qEH" id="pIY-79-4gy"/>
+                <outlet property="constraintWimg" destination="Fj7-XU-cJq" id="DwO-km-wgl"/>
+                <outlet property="img" destination="irb-yG-Hxk" id="Ae3-wf-sAw"/>
+                <outlet property="lblName" destination="KoM-Qa-V9P" id="hPi-1e-Ik7"/>
+                <outlet property="lblPrice" destination="VRZ-WN-Ffz" id="qHp-jE-fRg"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="122.54464285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Headers/XC/default" width="1441" height="601"/>
+    </resources>
+</document>

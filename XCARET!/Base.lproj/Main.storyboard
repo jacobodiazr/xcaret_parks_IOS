@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fJE-Lq-6Af">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intro Lottie View Controller-->
+        <scene sceneID="rHr-99-73U">
+            <objects>
+                <viewController id="fJE-Lq-6Af" customClass="IntroLottieViewController" customModule="XCARET_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CHB-pe-nwY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiW-UQ-Hc6">
+                                <rect key="frame" x="185" y="625" width="5" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHv-2u-N7b">
+                                <rect key="frame" x="184.5" y="605.5" width="6" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="trg-bo-tU6" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                                <color key="backgroundColor" systemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="XXW-kh-fNa"/>
+                                </constraints>
+                            </view>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="pnI-PV-Kxg">
+                                <rect key="frame" x="177.5" y="520" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="BcK-RG-AQb"/>
+                                    <constraint firstAttribute="height" constant="20" id="rHe-ax-JbK"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uwA-uo-Wda"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uiW-UQ-Hc6" firstAttribute="centerX" secondItem="CHB-pe-nwY" secondAttribute="centerX" id="6F2-8k-log"/>
+                            <constraint firstItem="uiW-UQ-Hc6" firstAttribute="top" secondItem="bHv-2u-N7b" secondAttribute="bottom" constant="5" id="6c5-NQ-SwM"/>
+                            <constraint firstItem="pnI-PV-Kxg" firstAttribute="centerX" secondItem="CHB-pe-nwY" secondAttribute="centerX" id="8qk-qR-Gwb"/>
+                            <constraint firstItem="bHv-2u-N7b" firstAttribute="centerX" secondItem="CHB-pe-nwY" secondAttribute="centerX" id="9yy-ox-Xw6"/>
+                            <constraint firstItem="pnI-PV-Kxg" firstAttribute="top" secondItem="trg-bo-tU6" secondAttribute="bottom" constant="20" id="LSb-pt-PDl"/>
+                            <constraint firstItem="uwA-uo-Wda" firstAttribute="bottom" secondItem="uiW-UQ-Hc6" secondAttribute="bottom" constant="30" id="Vkm-Ve-7jQ"/>
+                            <constraint firstItem="trg-bo-tU6" firstAttribute="top" secondItem="CHB-pe-nwY" secondAttribute="top" id="eGt-Qa-Nyr"/>
+                            <constraint firstItem="trg-bo-tU6" firstAttribute="leading" secondItem="uwA-uo-Wda" secondAttribute="leading" id="wan-jH-10U"/>
+                            <constraint firstAttribute="trailing" secondItem="trg-bo-tU6" secondAttribute="trailing" id="zZD-aK-k1S"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="indicatorView" destination="pnI-PV-Kxg" id="jJc-d1-z8w"/>
+                        <outlet property="lblCopyright" destination="uiW-UQ-Hc6" id="z2Y-r1-spG"/>
+                        <outlet property="lblVersion" destination="bHv-2u-N7b" id="1jc-kT-HWf"/>
+                        <outlet property="viewLogo" destination="trg-bo-tU6" id="Lal-sc-YrK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uon-CI-ASP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="845.60000000000002" y="89.505247376311857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

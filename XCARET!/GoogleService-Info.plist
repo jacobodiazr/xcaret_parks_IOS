@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1023643505773-q94uo14qgll9gokb9nc7jt912matk15d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1023643505773-q94uo14qgll9gokb9nc7jt912matk15d</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1023643505773-2opb248bq7brdsuehqt9deqmmklukkka.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCnV99bWJB8WtnkK0vRDNuAwAwoEic_-tM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1023643505773</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mx.com.experienciasxcaret.XCARET-</string>
+	<key>PROJECT_ID</key>
+	<string>xcaretftvym2017</string>
+	<key>STORAGE_BUCKET</key>
+	<string>xcaretftvym2017.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1023643505773:ios:627b7877a9723f92</string>
+	<key>DATABASE_URL</key>
+	<string>https://xcaretftvym2017.firebaseio.com</string>
+</dict>
+</plist>

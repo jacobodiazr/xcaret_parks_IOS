@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellSegmentRecomendations" rowHeight="281" id="KGk-i7-Jjw" customClass="segmentRecomendationsTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="281"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="281"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cKX-Xg-SWN">
+                        <rect key="frame" x="15" y="7" width="323" height="54"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zki-Dg-23p">
+                                <rect key="frame" x="0.0" y="7" width="323" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6nV-8m-8D9"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zki-Dg-23p" secondAttribute="trailing" id="3tz-8u-Anp"/>
+                            <constraint firstItem="zki-Dg-23p" firstAttribute="leading" secondItem="cKX-Xg-SWN" secondAttribute="leading" id="8hw-QV-Izf"/>
+                            <constraint firstItem="zki-Dg-23p" firstAttribute="top" secondItem="cKX-Xg-SWN" secondAttribute="top" constant="7" id="MFZ-fx-HpT"/>
+                            <constraint firstAttribute="bottom" secondItem="zki-Dg-23p" secondAttribute="bottom" constant="7" id="Xgw-DF-n4T"/>
+                        </constraints>
+                    </view>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqD-b6-dng">
+                        <rect key="frame" x="15" y="69" width="323" height="207"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="Mok-Wv-Zxm"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" red="0.47843137250000001" green="0.5450980392" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cKX-Xg-SWN" secondAttribute="trailing" constant="15" id="85g-U7-bb9"/>
+                    <constraint firstItem="CqD-b6-dng" firstAttribute="top" secondItem="cKX-Xg-SWN" secondAttribute="bottom" constant="8" symbolic="YES" id="JA6-Hv-5RZ"/>
+                    <constraint firstItem="cKX-Xg-SWN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="KWk-ln-Ge0"/>
+                    <constraint firstAttribute="bottom" secondItem="CqD-b6-dng" secondAttribute="bottom" constant="5" id="MyG-mh-WFY"/>
+                    <constraint firstItem="CqD-b6-dng" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="bIA-HO-32c"/>
+                    <constraint firstAttribute="trailing" secondItem="CqD-b6-dng" secondAttribute="trailing" constant="15" id="kwA-k5-tNj"/>
+                    <constraint firstItem="cKX-Xg-SWN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="xM5-jB-Frf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="segmentRecomendations" destination="zki-Dg-23p" id="Wf1-Yz-DeH"/>
+                <outlet property="textViewDescriptionSegment" destination="CqD-b6-dng" id="Hsf-Wb-YZZ"/>
+                <outlet property="viewSegmentControl" destination="cKX-Xg-SWN" id="kIR-MD-y0I"/>
+            </connections>
+            <point key="canvasLocation" x="161.59420289855075" y="230.02232142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

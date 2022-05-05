@@ -1,0 +1,307 @@
+/* 
+  Localizable.strings
+  XCARET!
+
+  Created by Angelica Can on 11/13/18.
+  Copyright © 2018 Angelica Can. All rights reserved.
+*/
+
+/*Launch*/
+"lblCopyright" = "Grupo Xcaret %@ - Todos los derechos reservados";
+"lblErrNotNetwork" = "Error de conexión. Intenta de nuevo.";
+
+/*Alerts Crear Cuenta*/
+//"alertEmail" = "Verifica tu correo electrónico";
+//"alertPass" = "Proporciona una contraseña";
+//"alertConfirm" = "Proporciona la confirmación de su contraseña";
+//"alertNotMatch" = "La contraseña no coincide";
+//"alertName" = "Proporciona tu nombre";
+//"alertLastName" = "Proporciona tu apellido";
+//"alertCountry" = "Proporciona tu país";
+//"alertAccountExist" = "Ya existe una cuenta con este correo electrónico";
+//"alertEmailNotExist" = "No se encontró su email, verifique su información";
+"alertSendEmail" = "Se ha enviado un email a su correo electrónico para recuperar su contraseña";
+//"alertLocationDenied" = "Necesitamos ayuda para encontrarte. Habilita el acceso a la ubicación de XCARET! en Ajustes de tu iPhone.";
+
+/*Firebase Errors*/
+"lblErrAccountExist" = "Este email ya está siendo utilizado con otra cuenta.";
+//"lblErrAccountNotExist" = "La cuenta para este usuario no ha sido encontrado. Revisa e intenta de nuevo.";
+//"lblErrAccountForgot" = "Tu cuenta ha sido suspendida. Por favor, contáctanos para soporte.";
+//"lblErrInvalidEmail" = "Por favor, ingresa un email válido.";
+//"lblErrNotNetwork" = "Error de conexión. Intenta de nuevo.";
+//"lblErrPassWeak" = "Tu contraseña es muy débil. Debe tener al menos 6 caracteres.";
+//"lblErrPassIncorrect" = "Tu contraseña es incorrecta. Intenta ingresarla de nuevo o entra en Olvide mi Contraseña para recuperarla.";
+//"lblErrorUnknow" = "Ocurrió un error desconocido.";
+
+/*Home*/
+//"lblNewXC" = "Lo nuevo en Xcaret";
+//"lblNewXH" = "Actividades Esenciales";
+"lblNewXS" = "Atracciones Icónicas";
+//"lblActEssentials" = "Actividades Esenciales";
+//"descActEssentials" = "¡Estás en el mejor parque del mundo! Tienes que visitar estos atractivos o no estuviste en Xcaret.";
+"lblRestaurants" = "Restaurantes";
+//"lblActDescubrir" = "Atractivos por Descubrir";
+//"lblActExtra" = "Actividades Extraordinarias";
+//"descActExtraXC" = "Diviértete con estas fantásticas experiencias en Xcaret. Requieren reserva previa y tienen costo adicional.";
+//"descActExtraXH" = "Diviértete con estas fantásticas experiencias en Xel-há. Requieren reserva previa y tienen costo adicional.";
+//"lblPresentations" = "Espectáculos";
+//"descPresentations" = "¡Lo mejor de México en un solo lugar! Cientos de artistas en escena en espectaculares presentaciones te esperan.";
+//"lblAll" = "Ver todas las actividades";
+//"lblSeeMap" = "Mapa";
+//"lblAllActivities" = "Todas las Actividades";
+//"lblCallCenter" = "Llama ahora";
+"lblCallCenterHotel" = "Reserva ahora llamando al call center";
+//"lblHello" = "¡Hola!";
+//"lblBooking" = "Compra ahora";
+//"lblParks" = "Parques";
+//"lblXensatorium" = "Ruta del Hacer";
+//"lblDescXensatorium" = "Una travesía llena de sorpresas y donde verás todo con una perspectiva distinta. Maravíllate al hacer esta ruta y percibir el mundo de manera diferente.";
+//"lblDowntown" = "Ruta del Sentir";
+//"lblDescDowntown" = "Desafía tu percepción en una ruta donde notarás tu alrededor de una manera distinta.  Tus sentidos se afilarán después de visitar Xenses.";
+//"lblNewVersion" = "Nueva versión";
+"lblLeyendVersion" = "%@ La versión %@ está disponible en AppStore.";//Contiene datos entre los strings
+//"lblOptNotNow" = "Ahora no";
+//"lblOptUpdate" = "Actualizar";
+//"lblRehilete" = "Rehilete";
+//Home - XV
+//"lblChooseYourAdmissioTitlen" = "Adéntrate en la aventura";
+//"lblBasicActivitiesDesc" = "¡Realiza las actividades tantas veces como quieras! Además, tu entrada incluye alimentos y bebidas sin alcohol ilimitados.";
+//"lblBasicActivities" = "Actividades Básicas";
+//"lblFoodAndBeverages" = "Alimentos y Bebidas";
+//"lblMoreExcitingActivities" = "Más Actividades Emocionantes";
+//"lblMoreExcitingActivitiesDesc" = "¡Solo aquí encontrarás estas emocionantes actividades! Diversión sin límites te espera en Xavage.";
+//"lblBuyNow" = "COMPRAR";
+
+
+/*Cells & tables*/
+//"lblSeeRestaurants" = "Restaurantes";
+//"lblSchedule" = "Horario";
+//"lblDuration" = "Duración";
+//"lblAboutXcaret" = "Acerca de";
+//"lblTitleAwards" = "Nuestros reconocimientos";
+//"lbNotePersons" = "Personas";
+//"lblNoteYearsOld" = "Años";
+//"lblNoteDeep" = "Profundidad";
+//"lblNoteHeight" = "Altura";
+//"lblTitleRestaurants" = "Restaurantes";
+"lblTitleSubcategory" = "Más opciones de %@";
+"lblBtnCallCenterAct" = "Reserva tu Actividad Extraordinaria";//No se encuentra en la app
+//"lblWarnings" = "Advertencias";
+//"lblRestrictions" = "Restricciones";
+//"lblInclude2" = "Incluye";
+//"lblRecommendations" = "Recomendaciones";
+//"lblRetrieving" = "Recuperando datos.\nPor favor, espere";
+
+
+/*Tab bar*/
+//"tbHome" = "Inicio";
+//"tbFavorites" = "Favoritos";
+//"tbSearch" = "Buscar";
+//"tbMenu" = "Menú";
+
+/*Menu general*/
+//"lblPhone" = "¿Dudas? Llámanos";
+//"lblEmail" = "Escríbenos";
+//"lblChangeLang" = "Idioma";
+//"lblReviewApp" = "Califica nuestra app";
+//"lblTerms" = "Términos y Condiciones";
+//"lblPolicies" = "Política de Privacidad";
+//"lblLogout" = "Cerrar sesión";
+//"lblSignup" = "Crea tu cuenta";
+//"lblReturnParks" = "Conoce nuestros parques";
+//"lblLeyendClose" = "¿Desea Cerrar su sesión?";
+//"lblSubjectEmail" = "Comentarios App Xcaret";
+//"lblErrorEmail" = "No se puede enviar el correo electronico. Por favor, compruebe la configuración de su correo electrónico y vuelva a intentarlo.";
+//"lblErrorFailed" = "Ha fallado";
+//"lblError" = "Ocurrió un error";
+//"lblGuest" = "Invitado";
+//"lblUpdate" = "Actualizar app";
+
+/*Contact*/
+//"lblCallInside" = "Llama sin costo dentro de México";
+//"lblCallFrom" = "Llamando desde";
+//"lblCallInglish" = "Para Inglés";
+//"lblCallSpanish" = "Para Español";
+//"lblCallUsaCan" = "USA-CANADÁ";
+"lblLangES" = "Español";
+"lblLangEN" = "Inglés";
+
+/*Others*/
+//"lblBack" = "Regresar";
+//"lblNotInclude" = "Con costo adicional";
+//"lblInclude" = "Incluido en tu entrada";
+//"lblIncludeAllInclusiveXV" = "Actividad incluida en la entrada All Inclusive";
+//"lblIncludeBasicXV" = "Actividad incluida en tu entrada";
+"lblMoreActivities" = "Más Actividades";//No se encontro en la app
+"lblMoreRestaurants" = "Más Restaurantes";//No se encontro en la app
+//"lblMyFavorites" = "Mis Favoritos";
+//"lblMySearch" = "Mi búsqueda";
+"lblFilter" = "Filtro";//No se encontro en la app
+//"lblClose" = "Cerrar";
+//"lblTitleNotResult" = "¡Bu!";
+//"lblDescNotResult" = "No buscaste bien, intenta de nuevo";
+//"lblResultNotFound" = "¡Bu! No buscaste bien, intenta de nuevo";
+//"lblSearchEmpty" = "¿Quieres encontrar alguna experiencia?";
+//"lblAddFavorites" = "¡Tus favoritos están vacíos! Presiona los corazones para agregar tus actividades";
+"lbl500" = "Algo ocurrió";//No se encontro en la app
+"lblChageLang" = "In order to change the language, the App must be closed and reopened by you.";//No se encontro en la app
+"lblRestart" = "App restart required";//No se encontro en la app
+"lblCloseApp" = "Close now";
+//"lblCancel" = "Cancelar";
+//"lblTitleNotFav" = "¡Qué triste!";
+//"lblDescNotFav" = "Aún no agregas actividades o atractivos a tus favoritos";
+//"lblAccept" = "Aceptar";
+//"lblSearch" = "Atractivos, lugares, color o nombre de ruta ";
+
+/*Photos*/
+//"lblLeyendNotAlbums" = "Ingresa el código de descarga que se encuentra en tu ticket de compra.";
+//"placeHolderCode" = "Ingresa tu código de descarga";
+//"lblNoPhotos" = "Fotos";
+//"lblVisitDate" = "Fecha de visita";
+//"lblIncluded" = "Incluido";
+"lydHeaderAlbum" = "Tu compra fue por %@ parques. Restan %@ #%@";//Revisar como poner los caracteres
+"lydHeaderAlbumComplete" = "Tu compra fue por %@ parques. #%@";//Revisar como poner los caracteres
+//"lydNotCode" = "¡Ups! Tu código de descarga presenta dificultades. Por favor, contacta a nuestro servicio de atención al cliente:";
+"lydNotFoundAlbum" = "No hemos encontrado algún albúm con ese código, verifique y vuelva a intentarlo";//falta en la base
+"lydCodeExist" = "Ya has registrado este código";//falta en la base, actualizar
+//"btnTabAlbum" = "Álbumes";
+//"btnTabShare" = "Compartir";
+"btnTabSend" = "Enviar en HD";//No se encontro en la app
+"btnTabBack" = "Regresar";//No se encontro en la app
+//"bntShare" = "Compartir";
+//"btnCancel" = "Cancelar";
+
+/*Title Photos*/
+//"titleAlbums" = "Mis álbumes";
+//"titlePhotosByAlbum" = "Mis Fotos - %@";
+//"titlePhotos" = "Mis Fotos";
+//"titleSelectPhotos" = "Selecciona tus fotografias";
+"notePhoto" = "Nota:";//falta en la base y app, actualizar
+//"infoNotePhoto" = " tus fotografías estarán disponibles durante las proximas 24 hrs";
+//"titleTickets" = "Mis Tickets";
+
+/*Hotel*/
+//"titleHouse" = "Casas";
+//"subtitleHouse" = "Las 900 suites se distribuyen en edificios o Casas. Cada una tiene un ambiente único y original, que es representada por un elemento natural.";
+//"titleRooms" = "Habitaciones";
+//"subtitleRooms" = "Sofisticados espacios con amenidades y servicios únicos. Mantente en contacto directo con la naturaleza y disfruta de la fantástica vista.";
+//"titleGastronomy" = "Gastronomía";
+//"subtitleGastronomy" = "Los diez restaurantes y ocho bares de Hotel Xcaret México dan un recorrido alrededor de los sabores del mundo, donde la gastronomía mexicana es la protagonista. ";
+//"titleAFI" = "All-Fun Inclusive®";
+//"subtitleAFI" = "Disfruta una experiencia única con alimentos, bebidas y acceso ilimitado a los parques y tours de Grupo Xcaret con transportación y traslados aeropuerto - hotel - aeropuerto.";
+//"titleSpa" = "Spa Muluuk";
+//"subtitleSpa" = "Relájate en un ambiente íntimo e inspirado en tradiciones ancestrales. Renuévate en mente, cuerpo y espíritu, al mismo tiempo que estimulas tus sentidos con uno de nuestros tratamientos. ";
+//"titleLocation" = "Ubicación";
+//"titleContactUs" = "Contáctanos";
+
+/*Contact Hotel*/  //FALTA*********CREAR ARREGLO EN BD
+"countryMX" = "México";
+"countrySP" = "España";
+"countryBR" = "Brasil";
+"countryCO" = "Colombia";
+"countryCH" = "Chile";
+"countryPE" = "Perú";
+"countryGR" = "Alemania";
+"countryUK" = "Reino Unido";
+"countryIT" = "Italia";
+"countryFR" = "Francia";
+"countryEU" = "EEUU";
+"countryCA" = "Canadá";
+"cityCUN" = "Cancún";
+"cityRIV" = "Riviera Maya";
+"countryUSACAN" = "USA - CAN";
+"countryAR" = "Argentina";
+//"lblCallTitle" = "Atención a clientes";
+//"lblCallDescription" = "Lunes a viernes de 7:00 a.m. a 12:00 a.m. Sábados y domingos de 7:00 a.m. a 10:00 p.m., hora de Quintana Roo.";
+
+/*Tickets*/
+//"lblTInclude" = "Incluido";
+//"lblTNotInclude" = "No incluido";
+//"lblBuyNowPark" = "Obtén tus entradas a %@";
+//"lblBtnBuy" = "Comprar";
+//"lblBtnGoTickets" = "Ir a mis tickets";
+//"lblDateOfVisit" = "Fecha de visita";
+//"lblAdults" = "Adultos";
+//"lblChildrens" = "Niños";
+//"lblInfants" = "Infantes";
+//"lblAyB" = "Alimentos y Bebidas";
+//"lblPhotopass" = "Photopass";
+//"lblTransportation" = "Transportación";
+//"lblLocationPickup" = "Hotel";
+//"lblSchedulePickup" = "Horario";
+//"lblActiveTicket" = "Activo";
+//"lblThanksVisit" = "Gracias por tu visita";
+//"lblCancelVisit" = "Cancelado";
+//"lblContracargoVisit" = "En aclaración";
+//"lblLeyendPoliticsCard" = "El dueño de la tarjeta deberá firmar un ticket impreso para obtener los brazaletes de admisión en las taquillas del parque. En caso de no visitarlo, se requiere una copia de la tarjeta y de la identificación oficial del dueño de la misma.";
+//"lblNotConection" = "Por el momento no hay conectividad con el centro de tickets. Puedes utilizar este ticket offline para acceder al parque o tour de tu compra. Intenta ingresar más tarde para visualizar tus tickets de manera correcta.";
+//"lblThanksPhotopass" = "Gracias por adquirir su photopass";
+
+
+/*SignUp*/
+"lblCreateSocialLogin" = "Crea tu cuenta con";
+"lblCreateUserLogin" = "o ingresa tus datos";
+"lblBtnCreateAccount" = "Crear";
+
+/*XP/XF*///REVISAR
+//"lblAerialTitleXP" = "Actividades Aéreas";
+//"lblAerialDescXP" = "¡Vuela sobre la selva y admira el paisaje de la Riviera Maya!";
+//"lblLandTitleXP" = "Actividades Terrestres";
+//"lblLandDescXP" = "Vive grandes emociones entre la jungla, ¡te encantarán!";
+//"lblUndergroundTitleXP" = "Actividades Subterráneas";
+//"lblUndergroundDescXP" = "Desciende bajo la superficie y explora un paisaje imponente repleto de estalactitas y estalagmitas.";
+
+//"lblAerialTitleXF" = "Actividades Aéreas";
+//"lblAerialDescXF" = "¡Disfruta la vista bajo el cielo estrellado de la Riviera Maya!";
+//"lblLandTitleXF" = "Actividades Terrestres";
+//"lblLandDescXF" = "Vive una aventura entre la jungla, iluminada solo por antorchas.";
+//"lblUndergroundTitleXF" = "Actividades Subterráneas";
+//"lblUndergroundDescXF" = "Descubre cuevas y cavernas inundadas formadas hace miles de años en la Riviera Maya.";
+
+//"lblhrs12XP" = "8 am a 5 pm";
+//"lblhrs12XF" = "5:30 pm a 12 am";
+//"lblhrs24XP" = "8 hrs a 17 hrs";
+//"lblhrs24XF" = "17:30 hrs a 00 hrs";
+
+//"lblTitleChooseXP" = "Selecciona tu aventura";
+//"lblDescriptionChooseXP" = "¿Buscas un emocionante recorrido durante el día o prefieres una asombrosa aventura nocturna?";
+
+/*XO*/
+//"lblTitlEventsKMXO" = "Eventos";
+//"lblTitleKMXO" = "Kermés tradicional ";
+//"lblDescriptionKMXO" = "A tu llegada te espera una auténtica kermés mexicana. ¡Juega en alguno de los divertidos juegos de feria antes de abordar tu trajinera!";
+//
+//"lblTitleXOKermes_0" = "Kermés tradicional";
+//"lblDescription_0" = "A tu llegada te espera una auténtica kermés mexicana. ¡Juega en alguno de los divertidos juegos de feria antes de abordar tu trajinera!";
+//
+//"lblTitleXOKermes_1" = "Inicia el recorrido";
+//"lblDescription_1" = "¡Bienvenido a bordo! El Animador hará que todos se conozcan y brinden. Además de divertidos juegos, disfrutarás una cena con deliciosos platillos mexicanos.";
+//
+//"lblTitleXOKermes_2" = "Visita el Pueblo";
+//"lblDescription_2" = "Un momento para estirar las piernas en el Pueblo. La música en vivo y la diversión continúa mientras recargas baterías para continuar la fiesta en tu trajinera.";
+//
+//"lblTitleXOKermes_3" = "¡Que empiece la fiesta!";
+//"lblDescription_3" = "Hora de abordar la trajinera. El Timonero te acercará al mariachi, a la marimba y otros grupos musicales para una fiesta donde bailarás y cantarás sin parar. ¡Entre más trajineras, mayor la diversión!";
+
+/*XENOTES*/
+//"lblTitleActividadesXN" = "Actividades que te harán vibrar";
+//"lblTitleDescriptionXN" = "¡Cada cenote que visitas tiene diferentes actividades! Además, al ser grupos pequeños, podrás disfrutarlo al máximo.";
+
+//"lblTitleTiposXN" = "¿Qué son los cenotes?";
+//"lblTitleTiposDescriptionXN" = "Son pozas naturales alimentadas por ríos subterráneos y la filtración de la lluvia. Su belleza atrae a visitantes de todo el mundo y los hay de distintos tipos por sus características.";
+
+/*XICHEN*/
+//"lblTitleActivitiesXI" = "Principales atractivos";
+//"lblDescriptionActivitiesXI" = "Tan enigmática como sorprendente es Chichén Itzá. Recorre sus principales templos y edificios, conoce de cerca sus secretos y disfruta un ameno tour en el principal sitio arqueológico maya junto a un guía profesional.";
+//"lblTitleCenotesXI" = "¿Qué son los Cenotes?";
+//"lblDescriptionCenotesXI" = "Fueron considerados sitios sagrados para los mayas y entradas a Xibalbá o inframundo. Incluso algunos estaban restringidos solo para la realeza. Se forman por la erosión del suelo de roca caliza y el flujo de ríos subterráneos en la Península de Yucatán. Conocerás el cenote Zací o el cenote Azul Ik’Kil en los tours Xichén. ";
+//"lblTitleValladolidXI" = "Valladolid";
+//"lblDescriptionValladolidXI" = "Esta joya colonial de Yucatán fue fundada en 1543 y es la segunda ciudad más grande del estado. Desde 2012 es reconocida como Pueblo Mágico y es un lugar repleto de historia y cultura. Recorre sus calles, toma fotos y pasa momentos inolvidables aquí durante el tour a Chichén Itzá.";
+
+/*PARQUES ABIERTOS O CERRADOS*/
+
+//"titleDescCerradoName" = "¡Queremos verte muy pronto!";
+//"titleDescCerradoDescription" = "Próximamente estaremos listos para que disfrutes nuestras aventuras.";
+
+//"titleDescAbiertoName" = "¡Te estamos esperando!";
+//"titleDescAbiertoDescription" = "Para tu seguridad, implementamos protocolos de sanidad en el parque, así como estaciones de gel antibacterial y lavamanos.";

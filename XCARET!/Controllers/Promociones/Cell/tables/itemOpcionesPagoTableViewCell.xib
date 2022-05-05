@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellOpcionesPago" rowHeight="429" id="KGk-i7-Jjw" customClass="itemOpcionesPagoTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="429"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="429"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddM-OT-at4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="429"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IPi-B6-0BL">
+                                <rect key="frame" x="10" y="15" width="300" height="404"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Paga a MESES SIN INTERESES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLt-rX-AeN">
+                                        <rect key="frame" x="10" y="20" width="280" height="57.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <color key="textColor" systemColor="scrollViewTexturedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Te ofrecemos múltiples opciones al momento de pagar tu reservación." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5H-fO-cQo">
+                                        <rect key="frame" x="10" y="263.5" width="280" height="64.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" systemColor="scrollViewTexturedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGe-0v-3eP">
+                                        <rect key="frame" x="10" y="97.5" width="285" height="6"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUO-Nb-TqW">
+                                        <rect key="frame" x="10" y="243.5" width="280" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Promociones/images/tarjetas y bancos/bancos" translatesAutoresizingMaskIntoConstraints="NO" id="JgZ-7k-aeR">
+                                        <rect key="frame" x="10" y="123.5" width="280" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="tMg-XC-CzJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Promociones/images/tarjetas y bancos/tarjetas" translatesAutoresizingMaskIntoConstraints="NO" id="fW5-ka-2Bk">
+                                        <rect key="frame" x="10" y="348" width="280" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="GuO-SE-6Qu"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.25858274647887325" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="fW5-ka-2Bk" secondAttribute="trailing" constant="10" id="5Au-2n-0YU"/>
+                                    <constraint firstItem="pUO-Nb-TqW" firstAttribute="top" secondItem="JgZ-7k-aeR" secondAttribute="bottom" constant="20" id="7Dx-dR-RRm"/>
+                                    <constraint firstItem="JgZ-7k-aeR" firstAttribute="leading" secondItem="IPi-B6-0BL" secondAttribute="leading" constant="10" id="A5M-CJ-Kz2"/>
+                                    <constraint firstAttribute="trailing" secondItem="oLt-rX-AeN" secondAttribute="trailing" constant="10" id="ByS-FB-F3W"/>
+                                    <constraint firstItem="pUO-Nb-TqW" firstAttribute="leading" secondItem="IPi-B6-0BL" secondAttribute="leading" constant="10" id="EcB-zN-nNJ"/>
+                                    <constraint firstItem="oLt-rX-AeN" firstAttribute="top" secondItem="IPi-B6-0BL" secondAttribute="top" constant="20" id="Fbq-Du-0Ht"/>
+                                    <constraint firstItem="PGe-0v-3eP" firstAttribute="leading" secondItem="IPi-B6-0BL" secondAttribute="leading" constant="10" id="IVo-JN-FKI"/>
+                                    <constraint firstItem="fW5-ka-2Bk" firstAttribute="top" secondItem="I5H-fO-cQo" secondAttribute="bottom" constant="20" id="Pax-zj-bQo"/>
+                                    <constraint firstItem="PGe-0v-3eP" firstAttribute="top" secondItem="oLt-rX-AeN" secondAttribute="bottom" constant="20" id="XTC-R6-fhf"/>
+                                    <constraint firstItem="JgZ-7k-aeR" firstAttribute="top" secondItem="PGe-0v-3eP" secondAttribute="bottom" constant="20" id="aSL-bh-c9M"/>
+                                    <constraint firstAttribute="trailing" secondItem="JgZ-7k-aeR" secondAttribute="trailing" constant="10" id="dfv-32-78m"/>
+                                    <constraint firstAttribute="trailing" secondItem="I5H-fO-cQo" secondAttribute="trailing" constant="10" id="eq2-Hr-8jc"/>
+                                    <constraint firstAttribute="trailing" secondItem="pUO-Nb-TqW" secondAttribute="trailing" constant="10" id="gMv-K7-NT6"/>
+                                    <constraint firstItem="fW5-ka-2Bk" firstAttribute="leading" secondItem="IPi-B6-0BL" secondAttribute="leading" constant="10" id="jkI-dA-eFt"/>
+                                    <constraint firstItem="I5H-fO-cQo" firstAttribute="top" secondItem="pUO-Nb-TqW" secondAttribute="bottom" constant="20" id="kFm-q9-2py"/>
+                                    <constraint firstItem="I5H-fO-cQo" firstAttribute="leading" secondItem="IPi-B6-0BL" secondAttribute="leading" constant="10" id="ndx-nY-Cw3"/>
+                                    <constraint firstAttribute="bottom" secondItem="fW5-ka-2Bk" secondAttribute="bottom" constant="16" id="ob0-V1-Zux"/>
+                                    <constraint firstAttribute="trailing" secondItem="PGe-0v-3eP" secondAttribute="trailing" constant="5" id="w2c-1u-Yfu"/>
+                                    <constraint firstItem="oLt-rX-AeN" firstAttribute="leading" secondItem="IPi-B6-0BL" secondAttribute="leading" constant="10" id="xh0-Ni-GIC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IPi-B6-0BL" firstAttribute="top" secondItem="ddM-OT-at4" secondAttribute="top" constant="15" id="39l-ua-9hE"/>
+                            <constraint firstAttribute="trailing" secondItem="IPi-B6-0BL" secondAttribute="trailing" constant="10" id="9md-Sb-6Ql"/>
+                            <constraint firstItem="IPi-B6-0BL" firstAttribute="leading" secondItem="ddM-OT-at4" secondAttribute="leading" constant="10" id="JyV-MU-w6A"/>
+                            <constraint firstAttribute="bottom" secondItem="IPi-B6-0BL" secondAttribute="bottom" constant="10" id="w1b-ec-6SI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ddM-OT-at4" secondAttribute="bottom" id="3t7-t5-UJd"/>
+                    <constraint firstItem="ddM-OT-at4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FKc-qP-OU1"/>
+                    <constraint firstAttribute="trailing" secondItem="ddM-OT-at4" secondAttribute="trailing" id="Pwg-IX-mn5"/>
+                    <constraint firstItem="ddM-OT-at4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bHS-K8-a62"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblMeses" destination="oLt-rX-AeN" id="EAy-xF-bOV"/>
+                <outlet property="lblMultiplesOpciones" destination="I5H-fO-cQo" id="RQ6-Yc-3aS"/>
+                <outlet property="lblSubtitle1" destination="PGe-0v-3eP" id="5Y5-jV-oQD"/>
+                <outlet property="lblSubtitle2" destination="pUO-Nb-TqW" id="z9g-uw-NeW"/>
+            </connections>
+            <point key="canvasLocation" x="91.304347826086968" y="146.98660714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Promociones/images/tarjetas y bancos/bancos" width="1110" height="300"/>
+        <image name="Promociones/images/tarjetas y bancos/tarjetas" width="1111" height="64"/>
+        <systemColor name="scrollViewTexturedBackgroundColor">
+            <color red="0.43529411764705878" green="0.44313725490196082" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellSlide" rowHeight="249" id="KGk-i7-Jjw" customClass="ItemSlideTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="249"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="248.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22S-VM-21l">
+                        <rect key="frame" x="0.0" y="0.0" width="410" height="250"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parks/XC/Restaurants/carnes" translatesAutoresizingMaskIntoConstraints="NO" id="6iY-pC-WXW">
+                                <rect key="frame" x="0.0" y="10" width="410" height="240"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parks/XC/bg_slide_top" translatesAutoresizingMaskIntoConstraints="NO" id="5KY-Hk-eHG">
+                                <rect key="frame" x="0.0" y="10" width="410" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="976-o7-yaz"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4S-ZK-W1y" customClass="GradientView" customModule="XCARET_" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="120" width="410" height="130"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="sV7-bR-Yna"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                        <color key="value" white="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parks/XC/bg_slide" translatesAutoresizingMaskIntoConstraints="NO" id="rFc-Ed-YBJ">
+                                <rect key="frame" x="0.0" y="225" width="410" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="eyw-RZ-gnz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4P-rS-KRo">
+                                <rect key="frame" x="125" y="190" width="160" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="1sx-p9-Iet"/>
+                                    <constraint firstAttribute="height" constant="35" id="fja-lK-8xw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="RESTAURANTES">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnRestaurants:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="P5v-DK-ZZH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rFc-Ed-YBJ" firstAttribute="leading" secondItem="22S-VM-21l" secondAttribute="leading" id="2ls-HX-uur"/>
+                            <constraint firstAttribute="height" constant="250" id="4W5-UQ-rFq"/>
+                            <constraint firstItem="5KY-Hk-eHG" firstAttribute="leading" secondItem="22S-VM-21l" secondAttribute="leading" id="4ha-rR-orc"/>
+                            <constraint firstAttribute="bottom" secondItem="C4S-ZK-W1y" secondAttribute="bottom" id="Izm-yJ-nDF"/>
+                            <constraint firstItem="6iY-pC-WXW" firstAttribute="top" secondItem="22S-VM-21l" secondAttribute="top" constant="10" id="MW5-PY-J0H"/>
+                            <constraint firstItem="C4S-ZK-W1y" firstAttribute="leading" secondItem="22S-VM-21l" secondAttribute="leading" id="RBm-2H-hqZ"/>
+                            <constraint firstAttribute="bottom" secondItem="6iY-pC-WXW" secondAttribute="bottom" id="UvR-90-IaP"/>
+                            <constraint firstItem="b4P-rS-KRo" firstAttribute="centerX" secondItem="22S-VM-21l" secondAttribute="centerX" id="buc-85-Yof"/>
+                            <constraint firstAttribute="trailing" secondItem="rFc-Ed-YBJ" secondAttribute="trailing" id="cPA-A4-tLs"/>
+                            <constraint firstAttribute="bottom" secondItem="b4P-rS-KRo" secondAttribute="bottom" constant="25" id="haU-dj-r95"/>
+                            <constraint firstItem="6iY-pC-WXW" firstAttribute="leading" secondItem="22S-VM-21l" secondAttribute="leading" id="opb-VV-fbm"/>
+                            <constraint firstAttribute="trailing" secondItem="5KY-Hk-eHG" secondAttribute="trailing" id="qrr-xs-asR"/>
+                            <constraint firstAttribute="trailing" secondItem="6iY-pC-WXW" secondAttribute="trailing" id="raW-Yb-vbb"/>
+                            <constraint firstItem="5KY-Hk-eHG" firstAttribute="top" secondItem="22S-VM-21l" secondAttribute="top" constant="10" id="t5Q-Ux-rZs"/>
+                            <constraint firstAttribute="trailing" secondItem="C4S-ZK-W1y" secondAttribute="trailing" id="wsD-7i-yRf"/>
+                            <constraint firstAttribute="bottom" secondItem="rFc-Ed-YBJ" secondAttribute="bottom" id="zys-vD-Yer"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="22S-VM-21l" secondAttribute="bottom" constant="2.5" id="cI7-De-Tas"/>
+                    <constraint firstItem="22S-VM-21l" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kgV-dO-a1d"/>
+                    <constraint firstItem="22S-VM-21l" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ma3-db-h8l"/>
+                    <constraint firstAttribute="trailing" secondItem="22S-VM-21l" secondAttribute="trailing" id="u60-6R-xri"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageslide" destination="6iY-pC-WXW" id="tKg-j8-3Xn"/>
+                <outlet property="lblBtnRestaurantes" destination="b4P-rS-KRo" id="OpY-zn-tkM"/>
+            </connections>
+            <point key="canvasLocation" x="209.59999999999999" y="246.9265367316342"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Parks/XC/Restaurants/carnes" width="1440" height="1000"/>
+        <image name="Parks/XC/bg_slide" width="1440" height="167"/>
+        <image name="Parks/XC/bg_slide_top" width="1440" height="82"/>
+    </resources>
+</document>

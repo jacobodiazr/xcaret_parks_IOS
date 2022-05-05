@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellMenuPromociones" id="gTV-IL-0wX" customClass="buttonMenuCollectionViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="127" height="29"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="127" height="29"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="asS-tn-8MF">
+                        <rect key="frame" x="5" y="0.0" width="117" height="29"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soy Mexicano" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lek-gI-Lfn" customClass="PaddingLabel" customModule="XCARET_" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="5" width="117" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.30588235289999999" green="0.45882352939999999" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="117" id="BkR-2P-Muy"/>
+                            <constraint firstItem="Lek-gI-Lfn" firstAttribute="top" secondItem="asS-tn-8MF" secondAttribute="top" constant="5" id="QeG-t3-dx5"/>
+                            <constraint firstItem="Lek-gI-Lfn" firstAttribute="leading" secondItem="asS-tn-8MF" secondAttribute="leading" id="dp1-uM-ayU"/>
+                            <constraint firstAttribute="bottom" secondItem="Lek-gI-Lfn" secondAttribute="bottom" constant="5" id="nha-kt-Vxs"/>
+                            <constraint firstAttribute="trailing" secondItem="Lek-gI-Lfn" secondAttribute="trailing" id="v9X-lr-h8O"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="asS-tn-8MF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PNz-Wm-198"/>
+                <constraint firstAttribute="bottom" secondItem="asS-tn-8MF" secondAttribute="bottom" id="Vep-4C-Z3b"/>
+                <constraint firstItem="asS-tn-8MF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="WHX-HV-qf9"/>
+                <constraint firstAttribute="trailing" secondItem="asS-tn-8MF" secondAttribute="trailing" constant="5" id="hvJ-96-Cbc"/>
+            </constraints>
+            <size key="customSize" width="127" height="29"/>
+            <connections>
+                <outlet property="constraintWidht" destination="BkR-2P-Muy" id="5me-ol-BIO"/>
+                <outlet property="lblItemMenu" destination="Lek-gI-Lfn" id="LtR-ye-P0n"/>
+                <outlet property="viewContent" destination="asS-tn-8MF" id="A2w-8l-h0U"/>
+            </connections>
+            <point key="canvasLocation" x="107.97101449275362" y="129.57589285714286"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="Lek-gI-Lfn">
+            <size key="intrinsicContentSize" width="110.5" height="29.5"/>
+        </designable>
+    </designables>
+</document>

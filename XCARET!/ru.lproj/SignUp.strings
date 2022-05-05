@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "Log In with"; ObjectID = "1pf-So-IgD"; */
+"1pf-So-IgD.text" = "Log In with";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "9mG-lA-Ngs"; */
+"9mG-lA-Ngs.placeholder" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "KAr-c9-bAk"; */
+"KAr-c9-bAk.normalTitle" = "Back";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "L4t-Pp-Bsq"; */
+"L4t-Pp-Bsq.placeholder" = "Country";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "XG2-nd-waD"; */
+"XG2-nd-waD.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Recover your password"; ObjectID = "aCe-j5-NBL"; */
+"aCe-j5-NBL.text" = "Recover your password";
+
+/* Class = "UITextField"; placeholder = "Last name"; ObjectID = "bO0-aF-gR1"; */
+"bO0-aF-gR1.placeholder" = "Last name";
+
+/* Class = "UIButton"; normalTitle = "Create account"; ObjectID = "bx5-v1-P7E"; */
+"bx5-v1-P7E.normalTitle" = "Create account";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "d1L-Fs-woe"; */
+"d1L-Fs-woe.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Enter your email"; ObjectID = "e1c-z3-npu"; */
+"e1c-z3-npu.text" = "Enter your email";
+
+/* Class = "UIButton"; normalTitle = "Guest"; ObjectID = "fnW-2i-qPh"; */
+"fnW-2i-qPh.normalTitle" = "Guest";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "im2-l4-zYz"; */
+"im2-l4-zYz.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Create your Account"; ObjectID = "oO6-eo-NsY"; */
+"oO6-eo-NsY.text" = "Create your Account";
+
+/* Class = "UIButton"; normalTitle = "Forgot your password?"; ObjectID = "ox4-rg-g0O"; */
+"ox4-rg-g0O.normalTitle" = "Forgot your password?";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "u7A-Vv-DOb"; */
+"u7A-Vv-DOb.text" = "Login";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "uFn-bS-l8Y"; */
+"uFn-bS-l8Y.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Confirm your password"; ObjectID = "uMg-cy-o1V"; */
+"uMg-cy-o1V.placeholder" = "Confirm your password";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "ufw-BQ-7dP"; */
+"ufw-BQ-7dP.normalTitle" = "Back";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "y1p-qh-y5O"; */
+"y1p-qh-y5O.placeholder" = "E-mail";

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellInfo" rowHeight="203" id="KGk-i7-Jjw" customClass="ItemInfoHotelTableViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="203"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="202.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbV-zo-k69">
+                        <rect key="frame" x="20" y="38" width="327" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="szH-hy-M7S"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                        <color key="textColor" red="0.30588235289999999" green="0.45882352939999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gu2-S0-WNV">
+                        <rect key="frame" x="20" y="70" width="327" height="16"/>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.63921568630000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnv-3a-NaS">
+                        <rect key="frame" x="20" y="106" width="327" height="76.5"/>
+                        <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.47843137254901957" green="0.54509803921568623" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zC-Yn-xSh">
+                        <rect key="frame" x="20" y="9" width="327" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="x8O-Aq-grf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                        <color key="textColor" red="0.30588235289999999" green="0.45882352939999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kbV-zo-k69" secondAttribute="trailing" constant="20" id="3Gx-7z-hkA"/>
+                    <constraint firstAttribute="bottom" secondItem="dnv-3a-NaS" secondAttribute="bottom" constant="20" id="5EV-hL-SDo"/>
+                    <constraint firstItem="kbV-zo-k69" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="5lk-VG-QI7"/>
+                    <constraint firstItem="gu2-S0-WNV" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="AyD-1C-67Q"/>
+                    <constraint firstItem="dnv-3a-NaS" firstAttribute="top" secondItem="gu2-S0-WNV" secondAttribute="bottom" constant="20" id="HvF-xI-P08"/>
+                    <constraint firstAttribute="trailing" secondItem="9zC-Yn-xSh" secondAttribute="trailing" constant="20" id="Jcf-ya-tfa"/>
+                    <constraint firstItem="gu2-S0-WNV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Pfv-GV-Ta9"/>
+                    <constraint firstItem="gu2-S0-WNV" firstAttribute="top" secondItem="kbV-zo-k69" secondAttribute="bottom" constant="10" id="VN4-F0-wu8"/>
+                    <constraint firstItem="9zC-Yn-xSh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="WSu-Hi-B1b"/>
+                    <constraint firstItem="9zC-Yn-xSh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="XbH-6l-3vz"/>
+                    <constraint firstItem="dnv-3a-NaS" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ccs-Yh-h1T"/>
+                    <constraint firstItem="dnv-3a-NaS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="iQf-mA-05w"/>
+                    <constraint firstItem="kbV-zo-k69" firstAttribute="top" secondItem="9zC-Yn-xSh" secondAttribute="bottom" id="qbL-Ax-aog"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="txtDescription" destination="dnv-3a-NaS" id="fwH-Lu-OO7"/>
+                <outlet property="txtSchedule" destination="gu2-S0-WNV" id="Tt3-FD-wKM"/>
+                <outlet property="txtSubtitle" destination="kbV-zo-k69" id="fvD-0g-rc7"/>
+                <outlet property="txtTitle" destination="9zC-Yn-xSh" id="7zI-sW-e7c"/>
+            </connections>
+            <point key="canvasLocation" x="-173.18840579710147" y="184.48660714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

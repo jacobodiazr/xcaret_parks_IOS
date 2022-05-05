@@ -1,0 +1,204 @@
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "0nM-ww-jzp"; */
+"0nM-ww-jzp.normalTitle" = "English";
+
+/* Class = "UIButton"; normalTitle = "COMPRA AHORA"; ObjectID = "2Jv-uO-f91"; */
+"2Jv-uO-f91.normalTitle" = "COMPRA AHORA";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4NR-eO-VyB"; */
+"4NR-eO-VyB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4Za-W1-p5a"; */
+"4Za-W1-p5a.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5lK-rp-uKg"; */
+"5lK-rp-uKg.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Español"; ObjectID = "6y9-5W-shd"; */
+"6y9-5W-shd.normalTitle" = "Español";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7JM-if-lDn"; */
+"7JM-if-lDn.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7WJ-Kw-iz5"; */
+"7WJ-Kw-iz5.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8tn-44-2yd"; */
+"8tn-44-2yd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Aquí va el horario"; ObjectID = "A3O-PE-3vN"; */
+"A3O-PE-3vN.text" = "Aquí va el horario";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CDR-ff-rRC"; */
+"CDR-ff-rRC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CFT-13-X1X"; */
+"CFT-13-X1X.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "DYc-AE-Y3M"; */
+"DYc-AE-Y3M.title" = "Menu";
+
+/* Class = "UILabel"; text = "<NSLayoutConstraint:0x280019180 'UIView-topMargin-guide-constraint' V:|-(8)-[UILayoutGuide:0x281a22bc0'UIViewLayoutMarginsGuide']   (active, names: '|':UITableViewCellContentView:0x1040656f0 )>"; ObjectID = "E5w-CT-Ob7"; */
+"E5w-CT-Ob7.text" = "<NSLayoutConstraint:0x280019180 'UIView-topMargin-guide-constraint' V:|-(8)-[UILayoutGuide:0x281a22bc0'UIViewLayoutMarginsGuide']   (active, names: '|':UITableViewCellContentView:0x1040656f0 )>";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ecc-FG-3HA"; */
+"Ecc-FG-3HA.text" = "Label";
+
+/* Class = "UILabel"; text = "-15%"; ObjectID = "G95-e7-9Pc"; */
+"G95-e7-9Pc.text" = "-15%";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Iur-YE-hbn"; */
+"Iur-YE-hbn.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "J82-EL-WEK"; */
+"J82-EL-WEK.title" = "Favorites";
+
+/* Class = "UILabel"; text = "Hola"; ObjectID = "K7S-l1-ZBj"; */
+"K7S-l1-ZBj.text" = "Hola";
+
+/* Class = "UILabel"; text = "2. Danza de los Búhos"; ObjectID = "KLK-04-mAs"; */
+"KLK-04-mAs.text" = "2. Danza de los Búhos";
+
+/* Class = "UILabel"; text = "10:00"; ObjectID = "Lg6-W3-M3V"; */
+"Lg6-W3-M3V.text" = "10:00";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "NHq-0M-aB0"; */
+"NHq-0M-aB0.title" = "Home";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "ONg-CQ-QJc"; */
+"ONg-CQ-QJc.placeholder" = "Country";
+
+/* Class = "UILabel"; text = "Crea tu cuenta con"; ObjectID = "PUo-4j-NkS"; */
+"PUo-4j-NkS.text" = "Crea tu cuenta con";
+
+/* Class = "UISegmentedControl"; QpD-kV-TRA.segmentTitles[0] = "Warnings"; ObjectID = "QpD-kV-TRA"; */
+"QpD-kV-TRA.segmentTitles[0]" = "Warnings";
+
+/* Class = "UISegmentedControl"; QpD-kV-TRA.segmentTitles[1] = "Restrictions"; ObjectID = "QpD-kV-TRA"; */
+"QpD-kV-TRA.segmentTitles[1]" = "Restrictions";
+
+/* Class = "UILabel"; text = "Hours"; ObjectID = "Qqd-Y0-yw8"; */
+"Qqd-Y0-yw8.text" = "Hours";
+
+/* Class = "UILabel"; text = "Search"; ObjectID = "Rmp-oL-TS0"; */
+"Rmp-oL-TS0.text" = "Search";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "S8e-E3-tS4"; */
+"S8e-E3-tS4.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Alain Nescolarde"; ObjectID = "Tzm-BE-Jx5"; */
+"Tzm-BE-Jx5.text" = "Alain Nescolarde";
+
+/* Class = "UILabel"; text = "+ 4"; ObjectID = "Yeh-Eg-pX7"; */
+"Yeh-Eg-pX7.text" = "+ 4";
+
+/* Class = "UIButton"; normalTitle = "Buy your admission to Xcaret"; ObjectID = "Zgn-N6-RWU"; */
+"Zgn-N6-RWU.normalTitle" = "Buy your admission to Xcaret";
+
+/* Class = "UILabel"; text = "Carretera Chetúmal-Puerto Juárez Kilómetro 282, Solidaridad, 77710 Playa del Carmen, Q.R."; ObjectID = "ZxG-wl-LX8"; */
+"ZxG-wl-LX8.text" = "Carretera Chetúmal-Puerto Juárez Kilómetro 282, Solidaridad, 77710 Playa del Carmen, Q.R.";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "aG4-4Z-cUs"; */
+"aG4-4Z-cUs.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "c1C-pd-Os5"; */
+"c1C-pd-Os5.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Buy your admission to Xcaret"; ObjectID = "cds-Hg-EFr"; */
+"cds-Hg-EFr.normalTitle" = "Buy your admission to Xcaret";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "cs3-JH-W2N"; */
+"cs3-JH-W2N.title" = "Search";
+
+/* Class = "UILabel"; text = "20%"; ObjectID = "dJp-Bh-PKG"; */
+"dJp-Bh-PKG.text" = "20%";
+
+/* Class = "UIButton"; normalTitle = "Crear"; ObjectID = "eEc-qW-3bd"; */
+"eEc-qW-3bd.normalTitle" = "Crear";
+
+/* Class = "UISegmentedControl"; epg-wn-rP0.segmentTitles[0] = "Included"; ObjectID = "epg-wn-rP0"; */
+"epg-wn-rP0.segmentTitles[0]" = "Included";
+
+/* Class = "UISegmentedControl"; epg-wn-rP0.segmentTitles[1] = "Recommendations"; ObjectID = "epg-wn-rP0"; */
+"epg-wn-rP0.segmentTitles[1]" = "Recommendations";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "fN2-S1-awg"; */
+"fN2-S1-awg.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "LLAMA AHORA"; ObjectID = "hSS-AY-Lbg"; */
+"hSS-AY-Lbg.normalTitle" = "LLAMA AHORA";
+
+/* Class = "UILabel"; text = "Paraiso majestuoso de méxico"; ObjectID = "hSn-jN-CEX"; */
+"hSn-jN-CEX.text" = "Paraiso majestuoso de méxico";
+
+/* Class = "UILabel"; text = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."; ObjectID = "iIO-zY-XGB"; */
+"iIO-zY-XGB.text" = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iuq-a5-LbR"; */
+"iuq-a5-LbR.text" = "Label";
+
+/* Class = "UILabel"; text = "Años"; ObjectID = "jAD-gK-uLL"; */
+"jAD-gK-uLL.text" = "Años";
+
+/* Class = "UILabel"; text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."; ObjectID = "lyw-jr-CR1"; */
+"lyw-jr-CR1.text" = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.";
+
+/* Class = "UILabel"; text = "Nuestros reconocimientos"; ObjectID = "mx2-kH-oOd"; */
+"mx2-kH-oOd.text" = "Nuestros reconocimientos";
+
+/* Class = "UILabel"; text = "ANGELICA CAN"; ObjectID = "oIf-d1-CaX"; */
+"oIf-d1-CaX.text" = "ANGELICA CAN";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oKt-pj-5f0"; */
+"oKt-pj-5f0.text" = "Label";
+
+/* Class = "UILabel"; text = "Xcaret!"; ObjectID = "oSa-2t-zD9"; */
+"oSa-2t-zD9.text" = "Xcaret!";
+
+/* Class = "UILabel"; text = "Xcaret México Espectacular"; ObjectID = "pAT-jb-BN7"; */
+"pAT-jb-BN7.text" = "Xcaret México Espectacular";
+
+/* Class = "UILabel"; text = "O ingresa tus datos"; ObjectID = "q3j-PT-S9B"; */
+"q3j-PT-S9B.text" = "O ingresa tus datos";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "qI1-iR-aoo"; */
+"qI1-iR-aoo.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rbk-y7-cBm"; */
+"rbk-y7-cBm.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Call USA - CAN"; ObjectID = "rmA-qB-PBw"; */
+"rmA-qB-PBw.normalTitle" = "Call USA - CAN";
+
+/* Class = "UILabel"; text = "Calling from inside the Mexican Republic"; ObjectID = "rn5-vj-2fQ"; */
+"rn5-vj-2fQ.text" = "Calling from inside the Mexican Republic";
+
+/* Class = "UITextField"; placeholder = "Confirm your password"; ObjectID = "sVt-vh-CKD"; */
+"sVt-vh-CKD.placeholder" = "Confirm your password";
+
+/* Class = "UITextField"; placeholder = "Last name"; ObjectID = "tAI-IT-TqC"; */
+"tAI-IT-TqC.placeholder" = "Last name";
+
+/* Class = "UIButton"; normalTitle = "Call Spanish"; ObjectID = "uhN-WZ-3L6"; */
+"uhN-WZ-3L6.normalTitle" = "Call Spanish";
+
+/* Class = "UIButton"; normalTitle = "COMPRA AHORA"; ObjectID = "wGB-aY-hQz"; */
+"wGB-aY-hQz.normalTitle" = "COMPRA AHORA";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wc3-vw-vFv"; */
+"wc3-vw-vFv.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Call English"; ObjectID = "wk1-cO-bE0"; */
+"wk1-cO-bE0.normalTitle" = "Call English";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "wlQ-3Z-qGh"; */
+"wlQ-3Z-qGh.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "xIt-65-PhY"; */
+"xIt-65-PhY.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Regresar"; ObjectID = "y08-iu-YET"; */
+"y08-iu-YET.text" = "Regresar";
+
+/* Class = "UILabel"; text = "Calling From"; ObjectID = "zBG-yF-f0J"; */
+"zBG-yF-f0J.text" = "Calling From";

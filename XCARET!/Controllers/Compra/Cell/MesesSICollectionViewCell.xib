@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MesesSI" id="gTV-IL-0wX" customClass="MesesSICollectionViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bfJ-qz-1Gd">
+                        <rect key="frame" x="15" y="0.0" width="125" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 MSI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNV-i1-KFb">
+                                <rect key="frame" x="39" y="11" width="47.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <color key="textColor" red="0.37254901960784315" green="0.53725490196078429" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DmF-i6-nRz">
+                                <rect key="frame" x="47.5" y="34" width="30" height="3"/>
+                                <color key="backgroundColor" red="0.37254901960784315" green="0.53725490196078429" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="KVU-pZ-tmu"/>
+                                    <constraint firstAttribute="height" constant="3" id="vn7-Cv-Ps0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DmF-i6-nRz" firstAttribute="centerX" secondItem="bfJ-qz-1Gd" secondAttribute="centerX" id="0fg-Qk-Z0j"/>
+                            <constraint firstItem="QNV-i1-KFb" firstAttribute="centerY" secondItem="bfJ-qz-1Gd" secondAttribute="centerY" constant="-5" id="OAv-5S-864"/>
+                            <constraint firstItem="DmF-i6-nRz" firstAttribute="top" secondItem="QNV-i1-KFb" secondAttribute="bottom" constant="5" id="jt0-SB-MFt"/>
+                            <constraint firstItem="QNV-i1-KFb" firstAttribute="centerX" secondItem="bfJ-qz-1Gd" secondAttribute="centerX" id="xsS-2K-Yxf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.37254901960784315" green="0.53725490196078429" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bfJ-qz-1Gd" secondAttribute="bottom" id="2Rw-vw-tLC"/>
+                <constraint firstItem="bfJ-qz-1Gd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Bhg-Gi-lRC"/>
+                <constraint firstItem="bfJ-qz-1Gd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="NSL-aT-6kV"/>
+                <constraint firstAttribute="trailing" secondItem="bfJ-qz-1Gd" secondAttribute="trailing" id="tOt-a8-CIz"/>
+            </constraints>
+            <size key="customSize" width="140" height="50"/>
+            <connections>
+                <outlet property="constraintLineSelectMSI" destination="KVU-pZ-tmu" id="m7p-yk-mes"/>
+                <outlet property="contentMSI" destination="bfJ-qz-1Gd" id="gHy-y2-rME"/>
+                <outlet property="lineSelectMSIView" destination="DmF-i6-nRz" id="XD8-qN-N1V"/>
+                <outlet property="titleMSI" destination="QNV-i1-KFb" id="jk3-fT-pKF"/>
+            </connections>
+            <point key="canvasLocation" x="202.89855072463769" y="75"/>
+        </collectionViewCell>
+    </objects>
+</document>

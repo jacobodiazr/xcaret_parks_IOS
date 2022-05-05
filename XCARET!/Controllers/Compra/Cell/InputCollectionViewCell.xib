@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InputCollectionViewCell" id="7tk-79-vFM" customClass="InputCollectionViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="306" height="76"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="306" height="76"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3a-QP-k9h">
+                        <rect key="frame" x="266" y="20" width="20" height="20"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="2dF-cY-1D2"/>
+                            <constraint firstAttribute="width" constant="20" id="Zid-CS-mpu"/>
+                            <constraint firstAttribute="width" secondItem="O3a-QP-k9h" secondAttribute="height" id="aCF-k3-hHQ"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="systemGrayColor"/>
+                        <state key="normal" image="Icons/tickets/info"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cu-Jn-UxD">
+                        <rect key="frame" x="35" y="55" width="39.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.47843137254901957" green="0.54509803921568623" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nw3-FZ-eRd">
+                        <rect key="frame" x="30" y="0.0" width="228" height="50"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="agL-9Q-AYT">
+                                <rect key="frame" x="5" y="10" width="218" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="X8C-Pl-zur"/>
+                                </constraints>
+                                <color key="textColor" red="0.30588235294117649" green="0.45882352941176469" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="krR-z0-08f">
+                                <rect key="frame" x="0.0" y="49" width="228" height="1"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="TRg-7G-kKj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="krR-z0-08f" secondAttribute="trailing" id="8cN-jq-xhn"/>
+                            <constraint firstItem="agL-9Q-AYT" firstAttribute="leading" secondItem="nw3-FZ-eRd" secondAttribute="leading" constant="5" id="J9X-G9-nHK"/>
+                            <constraint firstAttribute="trailing" secondItem="agL-9Q-AYT" secondAttribute="trailing" constant="5" id="Pas-yo-k0h"/>
+                            <constraint firstAttribute="height" constant="50" id="cts-rV-j1A"/>
+                            <constraint firstAttribute="bottom" secondItem="krR-z0-08f" secondAttribute="bottom" id="dMQ-LP-pbH"/>
+                            <constraint firstItem="agL-9Q-AYT" firstAttribute="top" secondItem="nw3-FZ-eRd" secondAttribute="top" constant="10" id="xRp-y0-6uU"/>
+                            <constraint firstItem="krR-z0-08f" firstAttribute="leading" secondItem="nw3-FZ-eRd" secondAttribute="leading" id="zif-io-3Vb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="O3a-QP-k9h" firstAttribute="top" secondItem="7tk-79-vFM" secondAttribute="top" constant="20" id="0DC-YE-ZUB"/>
+                <constraint firstAttribute="trailing" secondItem="O3a-QP-k9h" secondAttribute="trailing" constant="20" id="FsT-3Q-hIh"/>
+                <constraint firstItem="nw3-FZ-eRd" firstAttribute="top" secondItem="7tk-79-vFM" secondAttribute="top" id="SFm-T4-UOu"/>
+                <constraint firstItem="O3a-QP-k9h" firstAttribute="leading" secondItem="nw3-FZ-eRd" secondAttribute="trailing" constant="8" id="Yoi-xx-Pnb"/>
+                <constraint firstItem="6cu-Jn-UxD" firstAttribute="leading" secondItem="7tk-79-vFM" secondAttribute="leading" constant="35" id="bPJ-2B-wMr"/>
+                <constraint firstItem="6cu-Jn-UxD" firstAttribute="top" secondItem="nw3-FZ-eRd" secondAttribute="bottom" constant="5" id="kyG-uU-0qu"/>
+                <constraint firstItem="nw3-FZ-eRd" firstAttribute="leading" secondItem="7tk-79-vFM" secondAttribute="leading" constant="30" id="lil-Y4-b4R"/>
+            </constraints>
+            <size key="customSize" width="306" height="76"/>
+            <connections>
+                <outlet property="infoBtn" destination="O3a-QP-k9h" id="KI5-P1-isx"/>
+                <outlet property="input" destination="agL-9Q-AYT" id="LX9-es-pSt"/>
+                <outlet property="nameTyoeLbl" destination="6cu-Jn-UxD" id="kU4-zP-yeC"/>
+                <outlet property="trailingICon" destination="FsT-3Q-hIh" id="Kb0-3F-vhT"/>
+            </connections>
+            <point key="canvasLocation" x="255.07246376811597" y="70.3125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Icons/tickets/info" width="37.5" height="37.5"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

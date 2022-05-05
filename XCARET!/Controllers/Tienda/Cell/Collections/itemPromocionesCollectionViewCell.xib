@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellPromosTienda" id="gTV-IL-0wX" customClass="itemPromocionesCollectionViewCell" customModule="XCARET_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="227" height="109"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="227" height="109"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NRW-qR-0Xc">
+                        <rect key="frame" x="0.0" y="0.0" width="227" height="109"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lCE-0d-FAw">
+                                <rect key="frame" x="7" y="0.0" width="213" height="99"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Promociones/images/promociones/default" translatesAutoresizingMaskIntoConstraints="NO" id="Lrs-GS-rgB">
+                                        <rect key="frame" x="0.0" y="0.0" width="213" height="99"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Lrs-GS-rgB" secondAttribute="trailing" id="2SX-We-4cV"/>
+                                    <constraint firstItem="Lrs-GS-rgB" firstAttribute="top" secondItem="lCE-0d-FAw" secondAttribute="top" id="J8u-Eu-dpZ"/>
+                                    <constraint firstItem="Lrs-GS-rgB" firstAttribute="leading" secondItem="lCE-0d-FAw" secondAttribute="leading" id="ZFE-1y-wxN"/>
+                                    <constraint firstAttribute="bottom" secondItem="Lrs-GS-rgB" secondAttribute="bottom" id="waG-vA-YED"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lCE-0d-FAw" secondAttribute="bottom" constant="10" id="2uS-CW-brf"/>
+                            <constraint firstAttribute="width" constant="227" id="WfI-X2-SS7"/>
+                            <constraint firstAttribute="trailing" secondItem="lCE-0d-FAw" secondAttribute="trailing" constant="7" id="gdF-Rr-ub0"/>
+                            <constraint firstAttribute="height" constant="109" id="hW0-V1-nmU"/>
+                            <constraint firstItem="lCE-0d-FAw" firstAttribute="top" secondItem="NRW-qR-0Xc" secondAttribute="top" id="ifE-Y7-OSo"/>
+                            <constraint firstItem="lCE-0d-FAw" firstAttribute="leading" secondItem="NRW-qR-0Xc" secondAttribute="leading" constant="7" id="qU2-jw-Jyq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="NRW-qR-0Xc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Piq-2f-paH"/>
+                <constraint firstAttribute="trailing" secondItem="NRW-qR-0Xc" secondAttribute="trailing" id="kac-AF-tLr"/>
+                <constraint firstAttribute="bottom" secondItem="NRW-qR-0Xc" secondAttribute="bottom" id="l8b-UM-kfk"/>
+                <constraint firstItem="NRW-qR-0Xc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vvL-IK-I27"/>
+            </constraints>
+            <size key="customSize" width="227" height="109"/>
+            <connections>
+                <outlet property="ConstraintW" destination="WfI-X2-SS7" id="abj-mR-Zz4"/>
+                <outlet property="constraintH" destination="hW0-V1-nmU" id="i4Z-aN-AGf"/>
+                <outlet property="img" destination="Lrs-GS-rgB" id="CLb-mU-8a1"/>
+                <outlet property="viewContentImage" destination="lCE-0d-FAw" id="hSu-dV-PpN"/>
+            </connections>
+            <point key="canvasLocation" x="265.94202898550725" y="92.075892857142847"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Promociones/images/promociones/default" width="1420" height="640"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
